@@ -1,14 +1,11 @@
 const express = require('express')
 const router = express.Router()
-const passport = require('passport')
-
-const LocalStrategy = require('passport-local').Strategy
+const bodyParser = require('body-parser')
 const session = require('express-session')
 const FileStore = require('session-file-store')(session)
+const passport = require('./passport')
 
-
-router.use(passport.initialize());
-router.use(passport.session())
+router.use(bodyParser.urlencoded({ extended: false }))
 
 router.use(session({
     store: new FileStore({
@@ -17,30 +14,8 @@ router.use(session({
     secret: 'KOEAKDOE'
 }))
 
-passport.serializeUser(function (user, done) {
-    done(null, user)
-})
-
-passport.deserializeUser(function (user, done) {
-    done(null, JSON.parse(user))
-})
-
-passport.use(new LocalStrategy(
-    function (username, password, done) {
-        if (username != 'akaki ') {
-            return done(null, false, { message: 'Incorrect username' })
-        }
-        if (password != '1234') {
-            return done(null, false, { message: 'Incorrect password' })
-        }
-
-        return done(null, {
-            username: 'akaki',
-            name: 'Jemal',
-            email: 'jemal@yahoo.com'
-        })
-    }
-));
+router.use(passport.initialize());
+router.use(passport.session())
 
 router.get('/', (req, res) => {
     res.render('login.html')
@@ -48,10 +23,8 @@ router.get('/', (req, res) => {
 
 router.post('/', passport.authenticate('local', {
     successRedirect: '/profile',
-    failureRedirect: '/login'
+    failureRedirect: '/login' 
 }))
-
-
 
 
 module.exports = router
