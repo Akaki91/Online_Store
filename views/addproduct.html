@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add Product</title>
+</head>
+<body>
+    <p>
+        Add new product
+    </p>
+<form action="/products/add" method="POST">
+    <p>
+        <input name="category" list="category">
+            <datalist id="category">
+                <option value=Shirts>
+                <option value=Dress>
+                <option value=Shoes>
+                <option value=Pants>
+                <option value=Coats>
+            </datalist>
+    </p>
+    <p>
+        <input type="text" name="item" placeholder="item">
+    </p>
+    <p>
+        <textarea rows="12" cols="80" type="text" name="description" placeholder="Write content here"></textarea>
+    </p>
+    <p>
+        <p>size</p>
+        <input type="radio" name="size" value="S"> S<br>
+        <input type="radio" name="size" value="M"> M<br>
+        <input type="radio" name="size" value="L"> L<br>
+    </p>
+    <p>
+        <input type="text" name="price" placeholder="price">
+        $
+    </p>
+    <button type="submit">Submit</button>
+</form>
+
+    
+</body>
+</html>

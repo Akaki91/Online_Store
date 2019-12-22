@@ -11,6 +11,8 @@ router.use(session({
     store: new FileStore({
         encoder: JSON.stringify
     }),
+    resave: true,
+    saveUninitialized: true,
     secret: 'KOEAKDOE'
 }))
 
@@ -21,10 +23,27 @@ router.get('/', (req, res) => {
     res.render('login.html')
 })
 
-router.post('/', passport.authenticate('local', {
-    successRedirect: '/profile',
-    failureRedirect: '/login' 
-}))
+router.post('/', passport.authenticate('local', { failureRedirect: '/login' }),
+    function (req, res) {
+        res.redirect('/profile');
+})
 
+
+
+//-------------------------------
+//facebook login
+
+router.get('/facebook',
+    passport.authenticate('facebook', {scope: ['email']})
+);
+
+router.get('/facebook/callback',
+    passport.authenticate('facebook', {
+        successRedirect: '/profile',
+        failureRedirect: 'login'
+    }))
+
+
+//----------------------
 
 module.exports = router
