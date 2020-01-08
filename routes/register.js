@@ -3,6 +3,8 @@ const mongoose = require('mongoose')
 const router = express.Router()
 const bodyParser = require('body-parser')
 const Joi = require('joi')
+const jwt = require('jsonwebtoken')
+const config = require('config')
 
 
 router.use(bodyParser.urlencoded({ extended: false }))
@@ -20,20 +22,17 @@ const accountSchema = new mongoose.Schema({
     password: {
         type: String,
         required: true
-    }
+    },
+    isAdmin: Boolean
 })
 
-const Account = mongoose.model('Account', accountSchema)
-
-function validateAccount(account) {
-    const schema = {
-        username: Joi.string().min(4).max(50).required(),
-        email: Joi.string().min(4).max(50).required().email(),
-        password: Joi.string().min(4).max(50).required(),
-    }
-
-    return Joi.validate(account, schema)
+accountSchema.methods.generateAuthToken = function(){
+    const token = jwt.sign({ _id: this._id, isAdmin: this.isAdmin}, config.get('jwtPrivateKey'))
+    return token
 }
+
+
+const Account = mongoose.model('Account', accountSchema)
 
 
 router.get('/', (req, res) => {
@@ -58,10 +57,26 @@ router.post('/', async (req, res) => {
 
     await account.save()
 
-    res.send('Your account has been saved. please login')
+    const token = account.generateAuthToken()
+
+    res.header('x-auth-token', token).send('Your account has been saved. please login')
 })
 
-// module.exports = router
+
+function validateAccount(account) {
+    const schema = {
+        username: Joi.string().min(4).max(50).required(),
+        email: Joi.string().min(4).max(50).required().email(),
+        password: Joi.string().min(4).max(50).required(),
+    }
+
+    return Joi.validate(account, schema)
+}
+
+
+// // router.get('/me', async (req, res) => )
+
+
 
 exports.Account = Account
 exports.register = router

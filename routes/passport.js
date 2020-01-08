@@ -8,26 +8,26 @@ const bodyParser = require('body-parser')
 
 router.use(bodyParser.urlencoded({ extended: false }))
 
-passport.use(new LocalStrategy(
-    function (username, password, done) {
+// passport.use(new LocalStrategy(
+//     function (username, password, done) {
 
-        Account.findOne({username: username}, function (err, user) {
-            if (err) { return done(err); }
-            if (!user) { return done(null, false); }
-            if (user.password != password) { return done(null, false); }
-            return done(null, user);
-        });
-    }
-));
+//         Account.findOne({username: username}, function (err, user) {
+//             if (err) { return done(err); }
+//             if (!user) { return done(null, false); }
+//             if (user.password != password) { return done(null, false); }
+//             return done(null, user);
+//         });
+//     }
+// ));
 
 
-passport.serializeUser(function (user, done) {
-    done(null, JSON.stringify(user))
-})
+// passport.serializeUser(function (user, done) {
+//     done(null, JSON.stringify(user))
+// })
 
-passport.deserializeUser(function (user, done) {
-    done(null, JSON.parse(user)) // JSON.parse(user))
-})
+// passport.deserializeUser(function (user, done) {
+//     done(null, JSON.parse(user)) 
+// })
 
 
 //------------facebook-login--------

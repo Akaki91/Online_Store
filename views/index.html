@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/671cd2f222.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/index.css">
     <title>ტანსაცმლის ონლაინ მაღაზია</title>
 </head>
 <body>
     <!-- <header class="header">  -->
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-light" >
                 <a class="navbar-brand" href="#">
                     <img class='logo' src="https://cdn.worldvectorlogo.com/logos/express-109.svg" alt="">
                 </a>
@@ -23,33 +23,96 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link sale" href="#">SALE 50% off</a>
+                        </li>
                         <li class="nav-item dropdown">
                             <!-- <a class="nav-link" href="#">Abount Us</a> -->
                             <div class="dropdown">
                                 <a class="btn dropdown-toggle nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
                                     aria-haspopup="true" aria-expanded="false">
-                                    New Merch
+                                    New Season
                                 </a>
                             
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
+                                    <a class="dropdown-item" href="#">For Women</a>
+                                    <a class="dropdown-item" href="#">For Men</a>
+                                    <a class="dropdown-item" href="#">For Children</a>
                                 </div>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Account</a>
+                            <a class="nav-link" href="#">Women</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#">Men</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/products/add">Add Poduct</a>
+                            <a class="nav-link" href="/products/add">Children</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/login">Sign In
-                            </a>
+                            <button type="button" class="nav-link btn" data-toggle="modal" data-target="#loginModal" >Your Account
+                            </button>
+                            <div class="modal fade" role="dialog" id="loginModal">
+                                <div class="modal-dialog modal-sm">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h3 class="modal-title">Sign In Here</h3>
+                                            <button type="button" class="close" data-dismiss="modal">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+
+                                        <div class="modal-body container">
+                                            <div class="form-group">
+                                                <h3 class="modal-title">Enter Your Details</h3>
+                                                <form action="/login" method="POST">
+                                                    <p>
+                                                        <input type="text" name="email" placeholder="email">
+                                                    </p>
+                                                
+                                                    <p>
+                                                        <input type="password" name="password" placeholder="password">
+                                                    </p>
+                                                    <button class="btn btn-secondary" type="submit">Sign In</button>
+                                                </form>   
+                                                <h3 class="modal-title">Don't have an account?</h3>
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="modal" data-target="#registerModal">Sign Up</button>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
+                            <div class="modal fade" role="dialog" id="registerModal">
+                                <div class="modal-dialog modal-sm">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h3 class="modal-title">Sign Up Here</h3>
+                                            <button type="button" class="close" data-dismiss="modal">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                            <div class="modal-body container">
+                                                <div class="form-group">
+                                                    <h3 class="modal-title">Enter Your Details</h3>
+                                                    <form action="/register" method="POST">
+                                                        <p>
+                                                            <input type="text" name="username" placeholder="username">
+                                                        </p>
+                                                        <p>
+                                                            <input type="text" name="email" placeholder="email">
+                                                        </p>
+                                                        <p>
+                                                            <input type="password" name="password" placeholder="password">
+                                                        </p>
+                                                        <button class="btn btn-secondary" type="submit">Submit new account</button>
+                                                    </form>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
                         </li>
                         <li class="nav-item">
                             <div id='search' class="nav-link">
@@ -73,7 +136,7 @@
     </section>
 
     <section id='female' class="justify-content-center">
-        <img class='female' src="https://www.bestfunforall.com/wallpaperbetter/imgs/16%20blue%20clothes%20wallpaper%20%204.jpg" alt="">
+        <img class='female' src="http://latinglam.com/wp-content/uploads/17b_homemode_mobile.standard.2560-1.jpg" alt="">
         <div class="txt">
             <h1>
                 Check out our new arrivals
@@ -141,7 +204,7 @@
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
                 <!-- Content -->
-                <h6 class="text-uppercase font-weight-bold">Company name</h6>
+                <h6 class="text-uppercase font-weight-bold">EXPRESS LLC</h6>
                 <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                 <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
                     consectetur
