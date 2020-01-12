@@ -2,25 +2,18 @@
     font-family: 'Nunito', sans-serif;
 }
 
-.header {
-    width: 100%;
-    height: 100%;
-    display: block;
+.maincontainer {
+    padding-top: 90px;
+    padding-left: 40px;
 }
 
-/* .navbar {
+.navbar {
     position: fixed;
     background-color: white;
-    z-index: 10;
-} */
-
-.nav-link {
-    display: table-cell;
-    vertical-align: middle;
-    height: 100%;
-    font-size: 15px;
-    color: black;
+    z-index: 1;
+    overflow: visible;
 }
+
 
 .nav-link.sale {
     background-color: rgba(255, 0, 0, 0.678);
@@ -37,10 +30,16 @@
 }
 
 .nav-link {
+    display: table-cell;
+    vertical-align: middle;
     text-align: center;
+    
+    font-size: 15px;
+    color: black;
     border: none;
     /* border: solid black 1px; */
     border-radius: 50px;
+    height: 100%;
     width: 130px;
     background-color: transparent;
 }
@@ -88,19 +87,38 @@ h3 {
     font-size: 15px;
 }
 
+h5 {
+    font-size: 13px;
+}
+
 .form-group {
     /* border: solid black 1px; */
     width: 220px;
     height: 220px;
     float: none;
     margin: auto;
+    margin-top: 0px;
     text-align: center;
 }
 
 .btn.btn-secondary {
     border: none;
     width: 175px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     background-color: lightblue;
     color: black;
+}
+
+.btn.btn-primary {
+    border: none;
+    width: 175px;
+    margin-bottom: 15px;
+}
+
+.modal-body {
+    height: 350px;
+}
+
+.modal {
+    margin-top: 80px;
 }

@@ -5,6 +5,7 @@ const LocalStrategy = require('passport-local').Strategy
 const FacebookStrategy = require('passport-facebook').Strategy
 const { Account } = require('./register')
 const bodyParser = require('body-parser')
+const keys = require('../config/keys')
 
 router.use(bodyParser.urlencoded({ extended: false }))
 
@@ -33,8 +34,8 @@ router.use(bodyParser.urlencoded({ extended: false }))
 //------------facebook-login--------
 
 passport.use(new FacebookStrategy({
-    clientID: 2571861736184746,
-    clientSecret: 'b43815e1914ad04fa4db9c6aae2f4847',
+    clientID: keys.faceboookclientID,
+    clientSecret: keys.facebookclientSecret,
     callbackURL: "http://localhost:3000/login/facebook/callback"
 },
     function (accessToken, refreshToken, profile, done) {

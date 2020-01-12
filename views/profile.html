@@ -1,0 +1,78 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div>
+    <p><h2> My Account</h2></p>
+    <hr>
+    
+    <p><a href="">MY DETAILS</a></p>
+    <p><a href="">MY ORDERS</a></p>
+    <p><a href="">SIGN OUT</a></p>
+
+    <div class="row">
+        <div class="col-sm-2">MY DETAILS<div>
+        <div class="col-sm-10"> 
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>MY DETAILS</td>
+                        <td>MY NAME:</td>
+                        <td>{{user.name}}</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>MY EMAIL:</td>
+                        <td>{{user.email}}</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>CURRENT PASSWORD:</td>
+                        <td>{{user.password}}</td>
+                    </tr>
+                <form action="/update" method="POST">
+                    <tr>
+                        <td></td>
+                        <td>MY PHONE NUMBER:</td>
+                        <td><input type="text" name="phone" placeholder="Phone Number"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>MY SHIPPING ADDRESS:</td> 
+                        <td><input type="text" name="address" placeholder="Your Address"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button class="btn btn-primary" type="submit">Update</button></td>
+                    </tr>
+
+                </form>
+                </tbody>
+            </table>
+        </div>
+
+            <p>MY NAME: {{user.name}}</p>
+            <p>MY EMAIL: {{user.email}}</p>
+            <p>CURRENT PASSWORD: {{user.password}}</p>
+            
+            <form action="/update" method="POST">
+                <p>MY PHONE NUMBER: <input type="text" name="phone" placeholder="Phone Number"></p>
+                <p>MY SHIPPING ADDRESS: <input type="text" name="address" placeholder="Your Address"></p>
+                <button class="btn btn-primary" type="submit">Update</button>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+
+<button class="btn btn-secondary" id="signout">Sign out</button>
+
+
+
+
+
+
+
+{% endblock %}

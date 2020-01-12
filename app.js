@@ -10,6 +10,7 @@ const { register, Account } = require('./routes/register')
 const config = require('config')
 const auth = require('./middleware/login')
 const error = require('./middleware/error')
+const cookieParser = require('cookie-parser');
 require('express-async-errors')
 
 winston.exceptions.handle(
@@ -32,7 +33,7 @@ if (!config.get('jwtPrivateKey')) {
 mongoose.connect('mongodb://localhost/storeitems', { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true })
     .then(() => winston.info('Connected to MongoDB...'))
 
-
+app.use(cookieParser());
 app.use(express.static('public'))
 app.use('/login', login)
 app.use('/products', products)
@@ -40,7 +41,6 @@ app.use('/register', register)
 app.use(bodyParser.urlencoded({ extended: false }))
 
 app.use(error)
-
 
 nunjucks.configure('views', {
     autoescape: true,
@@ -54,12 +54,25 @@ app.get('/', (req, res) => {
 })
 
 app.get('/profile', auth, async (req, res) => {
+
+    // let sortBy = req.query.sort_by;
     
     const user = await Account.findById(req.user._id).select('-password')
+
+    // if (sortBy) {
+    //     Account.sort({price: 'desc'});
+    // }
     
-    res.send(user)
+    res.render('profile.html', { user })
 })
 
+app.get('/profile/details', (req, res) => {
+    res.send('this is details page')
+})
+
+app.get('/home', (req, res) => {
+    res.render('profile.html')
+})
 
 
 const port = process.env.PORT || 3000

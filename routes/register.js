@@ -11,7 +11,7 @@ router.use(bodyParser.urlencoded({ extended: false }))
 
 
 const accountSchema = new mongoose.Schema({
-    username: {
+    name: {
         type: String,
         required: true
     },
@@ -35,37 +35,35 @@ accountSchema.methods.generateAuthToken = function(){
 const Account = mongoose.model('Account', accountSchema)
 
 
-router.get('/', (req, res) => {
-    res.render('register.html')
-})
-
 router.post('/', async (req, res) => {
 
     const { error } = validateAccount(req.body)
     if (error) {
-        return res.status(400).send(error.details[0].message)
+        return res.status(400).json(error.details[0].message)
     }
 
     let user = await Account.findOne({email: req.body.email})
-    if (user) return res.status(400).send('User is already registered')
+    if (user) return res.status(400).json('User is already registered')
 
     let account = new Account({
-        username: req.body.username,
+        name: req.body.name,
         email: req.body.email,
         password: req.body.password,
     })
 
     await account.save()
+    return res.status(200).json('You have registered sucessfully. Please Sign In below')
+    // const token = account.generateAuthToken()
 
-    const token = account.generateAuthToken()
-
-    res.header('x-auth-token', token).send('Your account has been saved. please login')
+    // res.header('x-auth-token', token)
+    // res.redirect('/profile')
+    //.send('Your account has been saved. please login')
 })
 
 
 function validateAccount(account) {
     const schema = {
-        username: Joi.string().min(4).max(50).required(),
+        name: Joi.string().min(4).max(50).required(),
         email: Joi.string().min(4).max(50).required().email(),
         password: Joi.string().min(4).max(50).required(),
     }

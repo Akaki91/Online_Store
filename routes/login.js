@@ -28,14 +28,19 @@ router.use(bodyParser.urlencoded({ extended: false }))
 
 router.post('/', async (req, res) => {
     const { error } = validate (req.body);
-    if (error) return res.status(400).send(error.details[0].message)
+
+    if (error) {
+        return res.status(400).json(error.details[0].message);
+    }
+    
 
     let user = await Account.findOne({ email: req.body.email, password: req.body.password});
-    if (!user) return res.status(400).send('Invalid email or password')
-
+    if (!user) return res.status(400).json('Invalid email or password')
+    
     const token =  user.generateAuthToken()
     
-    res.send('/profile')
+    res.cookie('jwt', token, {maxAge: 7 * 24 * 3600 * 1000});
+    res.redirect('/profile');
 })
 
 
@@ -50,7 +55,7 @@ router.get('/facebook',
 router.get('/facebook/callback',
     passport.authenticate('facebook', {
         successRedirect: '/profile',
-        failureRedirect: '/login'
+        failureRedirect: '/'
     }))
 
 
