@@ -10,7 +10,9 @@
     <script src="https://kit.fontawesome.com/671cd2f222.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/index.css">
-    <title>ტანსაცმლის ონლაინ მაღაზია</title>
+    <link rel="stylesheet" href="/css/collection.css">
+    <link rel="shortcut icon" href="https://avatars1.githubusercontent.com/u/5658226?v=3">
+    <title>Clothes Store</title>
 </head>
 
 <body>
@@ -41,18 +43,56 @@
                         </div>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Women</a>
+                <li class="nav-item dropdown">
+                    <div class="dropdown">
+                        <a class="btn nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Women
+                        </a>
+                    
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Shoes</a>
+                            <a class="dropdown-item" href="#">T-shirts</a>
+                            <a class="dropdown-item" href="#">Dresses</a>
+                        </div>
+                    </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Men</a>
+                <li class="nav-item dropdown">
+                    <div class="dropdown">
+                        <a class="btn nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Men
+                        </a>
+                    
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Shoes</a>
+                            <a class="dropdown-item" href="#">T-shirts</a>
+                            <a class="dropdown-item" href="#">Pants</a>
+                        </div>
+                    </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/products/add">Children</a>
+                <li class="nav-item dropdown">
+                    <div class="dropdown">
+                        <a class="btn nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Children
+                        </a>
+                    
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Shoes</a>
+                            <a class="dropdown-item" href="#">T-shirts</a>
+                            <a class="dropdown-item" href="#">Toys</a>
+                        </div>
+                    </div>
                 </li>
                 <li class="nav-item" id="account">
+
+                    {% if isAuthorized %}
+                    <a href="/profile" type="button" class="nav-link btn">Your Account</a>
+                    {% else %}
                     <button type="button" class="nav-link btn" data-toggle="modal" data-target="#loginModal">Your
                         Account</button>
+                    {% endif %}
                 </li>
                 <li class="nav-item">
                     <div id='search' class="nav-link">
@@ -61,7 +101,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="">
-                        <i class="fas fa-shopping-bag"></i>
+                        <i class="fas fa-shopping-cart"></i>
                     </a>
                 </li>
             </ul>
@@ -92,7 +132,7 @@
                                 <input type="text" name="email" placeholder="email">
                             </p>
                             <p>
-                                <input type="password" name="password" placeholder="password">
+                                <input type="current-password" name="password" placeholder="password">
                             </p>
                             <div id="errorlogin" style="color: red;"></div>
                             <button id="signin" class="btn btn-secondary" type="submit">Sign In</button>
@@ -130,7 +170,7 @@
                                 <input type="text" name="email" placeholder="email">
                             </p>
                             <p>
-                                <input type="password" name="password" placeholder="password">
+                                <input type="new-password" name="password" placeholder="password">
                             </p>
                             <div id="errorregister" style="color: red;"></div>
                             <div id="successregister" style="color: green;"></div>
@@ -205,7 +245,7 @@
                     <!-- Content -->
                     <h6 class="text-uppercase font-weight-bold">EXPRESS LLC</h6>
                     <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>Express yourself. Shop online and choose from huge options of top quality merchendise. Be trendy
+                    <p>Shop online and choose from huge options of top quality merchendise. Express yourself.
                     </p>
 
                 </div>

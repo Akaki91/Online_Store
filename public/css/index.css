@@ -4,6 +4,10 @@
 
 .maincontainer {
     padding-top: 90px;
+    padding-bottom: 90px
+}
+
+.cont {
     padding-left: 40px;
 }
 
@@ -16,7 +20,8 @@
 
 
 .nav-link.sale {
-    background-color: rgba(255, 0, 0, 0.678);
+    background-color: #ef5777;
+    columns: white;
 }
 
 .logo {

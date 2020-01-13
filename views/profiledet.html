@@ -1,0 +1,20 @@
+{% extends "profile.html" %}
+
+{% block cont %}
+
+<div class="col-sm-2">
+    <p>MY NAME:</p>
+    <p>MY EMAIL:</p>
+    <p>MY PHONE NUMBER:</p>
+    <p>MY SHIPPING ADDRESS:</p>
+</div>
+<div class="col-sm-8">
+    <p>{{user.name}}</p>
+    <p>{{user.email}}</p>
+    <form action="/update" method="POST">
+        <p><input type="text" name="phone" placeholder="Phone Number"></p>
+        <p><input type="text" name="address" placeholder="Your Address"></p>
+        <button class="btn btn-primary" type="submit">Update</button>
+    </form>
+</div>
+{% endblock %}

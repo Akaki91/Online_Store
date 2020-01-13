@@ -63,15 +63,25 @@ app.get('/profile', auth, async (req, res) => {
     //     Account.sort({price: 'desc'});
     // }
     
-    res.render('profile.html', { user })
+    res.render('profiledet.html', { user })
 })
 
-app.get('/profile/details', (req, res) => {
-    res.send('this is details page')
+app.get('/profile/orders', auth, (req, res) => {
+
+    res.render('profileord.html')
+})
+
+app.get('/profile/logout', (req, res) => {
+    res.clearCookie('jwt')
+    res.redirect('/')
+})
+
+app.get('/collection', (req, res) => {
+    res.render('collection.html')
 })
 
 app.get('/home', (req, res) => {
-    res.render('profile.html')
+    res.render('home.html')
 })
 
 

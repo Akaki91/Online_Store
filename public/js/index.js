@@ -28,15 +28,9 @@ $('#registerform').on('submit', function (e) {
 })
 
 
-$('#signout').on('submit', function(e) {
-
-})
-
-
-
-
-
 //     {% if (!isAuthorized) %}
+
+
 //                             {% } else { %}
 // <a href="/profile">Your Account</a>
 // {% } %}
