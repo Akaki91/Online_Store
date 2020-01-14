@@ -11,6 +11,7 @@ const config = require('config')
 const auth = require('./middleware/login')
 const error = require('./middleware/error')
 const cookieParser = require('cookie-parser');
+const jwt = require('jsonwebtoken')
 require('express-async-errors')
 
 winston.exceptions.handle(
@@ -42,12 +43,22 @@ app.use(bodyParser.urlencoded({ extended: false }))
 
 app.use(error)
 
-nunjucks.configure('views', {
+let env = nunjucks.configure('views', {
     autoescape: true,
     express: app
 })
 
 //-------------------------------
+
+app.use((req, res, next) => {
+    const token = req.cookies.jwt;
+    let isAuthorized = false;
+    if (token) {
+        isAuthorized = jwt.verify(token, config.get('jwtPrivateKey'));
+    }
+    env.addGlobal('isAuthorized', isAuthorized);
+    next();
+});
 
 app.get('/', (req, res) => {
     res.render('index.html')
