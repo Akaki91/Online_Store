@@ -3,25 +3,25 @@
 }
 
 .maincontainer {
-    padding-top: 90px;
+    padding-top: 100px;
     padding-bottom: 90px
 }
 
 .cont {
     padding-left: 40px;
+    padding-right: 40px;
 }
 
 .navbar {
     position: fixed;
     background-color: white;
-    z-index: 1;
+    z-index: 10;
     overflow: visible;
 }
 
 
 .nav-link.sale {
     background-color: #ef5777;
-    columns: white;
 }
 
 .logo {
@@ -39,21 +39,24 @@
     vertical-align: middle;
     text-align: center;
     
-    font-size: 15px;
+    font-size: 16px;
     color: black;
     border: none;
     /* border: solid black 1px; */
-    border-radius: 50px;
+    border-radius: 5px;
     height: 100%;
     width: 130px;
     background-color: transparent;
 }
 
-.nav-link:hover {
-    background-color: lightblue;
-    font-weight: 900;
+
+.nav-link.sale:hover {
+    background-color: #ef5777;
 }
 
+.nav-link:hover {
+    background-color: lightblue;
+}
 
 .female {
     width: 100%;
@@ -66,7 +69,6 @@
     position: absolute;
     top: 45%;
     left: 10%;
-    /* font-family: 'Roboto'; */
     font-size: 28px;
     border: solid grey 1px;
     width: 400px;
@@ -97,7 +99,6 @@ h5 {
 }
 
 .form-group {
-    /* border: solid black 1px; */
     width: 220px;
     height: 220px;
     float: none;
@@ -126,4 +127,13 @@ h5 {
 
 .modal {
     margin-top: 80px;
+}
+
+
+.sort {
+    text-align: left;
+}
+
+#search:focus {
+    width: 30px;
 }

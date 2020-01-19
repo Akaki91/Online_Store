@@ -9,55 +9,73 @@ const admin = require('../middleware/admin')
 
 router.use(bodyParser.urlencoded({ extended: false }))
 
-const Product = mongoose.model('Product', new mongoose.Schema({
-    category: String,
-    item: String,
-    description: String,
-    size: String,
-    price: Number
+const Item = mongoose.model('Item', new mongoose.Schema({
+    category: mongoose.Schema.Types.ObjectId,
+    subcategory: String,
+    newSeason: Boolean,
+    title: String,
+    image1: String,
+    image2: String,
+    image3: String,
+    price: Number,
+    rating: Number,
+    discount: mongoose.Schema.Types.Decimal128,
+    sale: Boolean,
+    color: String,
+    colors: [String],
+    sizes: [String],
+    inStock: [Number],
 }))
 
 function validate(req) {
     const schema = {
         category: Joi.string().required(),
-        item: Joi.string().required(),
-        description: Joi.string().required(),
-        size: Joi.string().required(),
-        price: Joi.number().required()
+        subcategory: Joi.string().required(),
+        newSeason: Joi.boolean().required(),
+        title: Joi.string().required(),
+        image1: Joi.string().required(),
+        image2: Joi.string().required(),
+        image3: Joi.string().required(),
+        price: Joi.number().required(),
+        rating: Joi.number().required(),
+        discount: Joi.number().required(),
+        sale: Joi.boolean().required(),
+        color: Joi.string().required(),
+        colors: Joi.array().required(),
+        sizes: Joi.array().required(),
+        inStock: Joi.array().required(),
     };
 
     return Joi.validate(req, schema);
 }
 
 
-router.get('/', async (req, res) => {
-    // throw new Error('Sorry')
-    const items = await Product.find().sort('product');
-    res.send(items)
-})
-
-
-router.get('/add', async (req, res) => {
-    res.render('addproduct.html')
-})
-
-
 router.post('/add', [auth, admin], async (req, res) => {
     const { error } = validate(req.body);
     if (error) return res.status(400).send(error.details[0].message)
 
-    let product = new Product({ 
+    let item = new Item({ 
         category: req.body.category,
-        item: req.body.item,
-        description: req.body.description,
-        size: req.body.size,
-        price: req.body.price
+        subcategory: req.body.subcategory,
+        newSeason: req.body.newSeason,
+        title: req.body.title,
+        image1: req.body.image1,
+        image2: req.body.image2,
+        image3: req.body.image3,
+        price: req.body.price,
+        rating: req.body.rating,
+        discount: req.body.discount,
+        sale: req.body.sale,
+        color: req.body.color,
+        colors: req.body.colors,
+        sizes: req.body.sizes,
+        inStock: req.body.inStock,
     })
 
     try {
-        product = await product.save()
-        console.log(product);
-        res.redirect('/products')
+        item = await item.save()
+        console.log(item);
+        res.redirect('/collection')
     }
     catch (ex) {
         for (field in ex.errors)
@@ -68,4 +86,5 @@ router.post('/add', [auth, admin], async (req, res) => {
 
 
   
-module.exports = router
+exports.products = router
+exports.Item = Item

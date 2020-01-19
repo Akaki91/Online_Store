@@ -3,7 +3,7 @@ const config = require('config')
 
 module.exports = function (req, res, next) {
     const token = req.cookies.jwt;
-    if (!token) return res.status(401).render('pleaselogin.html')
+    if (!token) return res.status(401).redirect('/')
 
     try{
         const decoded = jwt.verify(token, config.get('jwtPrivateKey'))

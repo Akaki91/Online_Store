@@ -17,7 +17,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="http://localhost:3000/">
             <img class='logo' src="https://cdn.worldvectorlogo.com/logos/express-109.svg" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -27,11 +27,11 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link sale" href="#">SALE 50% off</a>
+                    <a class="nav-link sale text-light" href="http://localhost:3000/collection">SALE 50% off</a>
                 </li>
                 <li class="nav-item dropdown">
                     <div class="dropdown">
-                        <a class="btn nav-link" href="#" role="button" id="dropdownMenuLink"
+                        <a class="btn nav-link text-dark" href="#" role="button" id="dropdownMenuLink"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             New Season
                         </a>
@@ -45,7 +45,7 @@
                 </li>
                 <li class="nav-item dropdown">
                     <div class="dropdown">
-                        <a class="btn nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                        <a class="btn nav-link text-dark" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">
                             Women
                         </a>
@@ -59,7 +59,7 @@
                 </li>
                 <li class="nav-item dropdown">
                     <div class="dropdown">
-                        <a class="btn nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                        <a class="btn nav-link text-dark" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">
                             Men
                         </a>
@@ -73,7 +73,7 @@
                 </li>
                 <li class="nav-item dropdown">
                     <div class="dropdown">
-                        <a class="btn nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                        <a class="btn nav-link text-dark" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">
                             Children
                         </a>
@@ -88,19 +88,19 @@
                 <li class="nav-item" id="account">
 
                     {% if isAuthorized %}
-                    <a href="/profile" type="button" class="nav-link btn">Your Account</a>
+                    <a href="/profile" type="button" class="nav-link btn text-dark">My Account</a>
                     {% else %}
-                    <button type="button" class="nav-link btn" data-toggle="modal" data-target="#loginModal">Your
+                    <button type="button" class="nav-link btn text-dark" data-toggle="modal" data-target="#loginModal">Your
                         Account</button>
                     {% endif %}
                 </li>
                 <li class="nav-item">
-                    <div id='search' class="nav-link">
+                    <div id='search' class="nav-link text-dark">
                         <i class="fas fa-search"></i>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">
+                    <a class="nav-link text-dark" href="">
                         <i class="fas fa-shopping-cart"></i>
                     </a>
                 </li>
@@ -129,10 +129,10 @@
                         <h3 class="modal-title">Enter Your Details</h3>
                         <form id="loginform" action="/login" method="POST">
                             <p>
-                                <input type="text" name="email" placeholder="email">
+                                <input type="text" autocomplete="email" name="email" placeholder="email">
                             </p>
                             <p>
-                                <input type="current-password" name="password" placeholder="password">
+                                <input type="password" autocomplete="current-password" name="password" placeholder="password">
                             </p>
                             <div id="errorlogin" style="color: red;"></div>
                             <button id="signin" class="btn btn-secondary" type="submit">Sign In</button>
@@ -167,10 +167,10 @@
                                 <input type="text" name="name" placeholder="full name">
                             </p>
                             <p>
-                                <input type="text" name="email" placeholder="email">
+                                <input type="text" autocomplete="email" name="email" placeholder="email">
                             </p>
                             <p>
-                                <input type="new-password" name="password" placeholder="password">
+                                <input type="password" autocomplete="new-password" name="password" placeholder="password">
                             </p>
                             <div id="errorregister" style="color: red;"></div>
                             <div id="successregister" style="color: green;"></div>
@@ -245,7 +245,7 @@
                     <!-- Content -->
                     <h6 class="text-uppercase font-weight-bold">EXPRESS LLC</h6>
                     <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>Shop online and choose from huge options of top quality merchendise. Express yourself.
+                    <p>Shop online and choose from huge variety of top quality merchendise. Express yourself.
                     </p>
 
                 </div>
@@ -280,7 +280,7 @@
                     <h6 class="text-uppercase font-weight-bold">Useful links</h6>
                     <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
-                        <a href="#!">Your Account</a>
+                        <a href="#!">My Account</a>
                     </p>
                     <p>
                         <a href="#!">About Us</a>

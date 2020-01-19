@@ -28,9 +28,17 @@ $('#registerform').on('submit', function (e) {
 })
 
 
-//     {% if (!isAuthorized) %}
+$(".dropdown").hover(function () {
+    let dropdownMenu = $(this).children(".dropdown-menu");
+
+    dropdownMenu.toggleClass("show")
+});
 
 
-//                             {% } else { %}
-// <a href="/profile">Your Account</a>
-// {% } %}
+
+// sorting querry
+
+// let sortBy = req.query.sort_by;
+    // if (sortBy) {
+    //     Account.sort({price: 'desc'});
+    // }

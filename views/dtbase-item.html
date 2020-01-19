@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+
+{% block content %}
+	<div class="cont">
+
+	
+	<table class="table">
+		<thead class="thead-dark">
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">ID</th>
+				<th scope="col">Cateogory</th>
+				<th scope="col">New Season</th>
+				<th scope="col">Title</th>
+				<th scope="col">Price</th>
+				<th scope="col">Discount</th>
+				<th scope="col">Color</th>
+				<th scope="col">Sizes</th>
+				<th scope="col">In Stock</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for item in items %}
+			<tr>
+				<th scope="row">{{loop.index}}</th>
+				<td>{{item._id}}</td>
+				<td>{{item.category}}</td>
+				<td>{{item.newSeason}}</td>
+				<td>{{item.title}}</td>
+				<td>{{item.price}}</td>
+				<td>{{item.discount}}</td>
+				<td>{{item.color}}</td>
+				<td>{{item.sizes}}</td>
+				<td>{{item.inStock}}</td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+</div>
+
+{% endblock %}

@@ -1,38 +1,91 @@
 {% extends "layout.html" %}
 
 {% block content %}
+<div class="cont">
+<p>
+    <h2> Admin Account</h2>
+</p>
+<hr>
 <div style="margin-left: 50px;">
     <p>
         Add new product
     </p>
 <form action="/products/add" method="POST">
     <p>
-        <input name="category" list="category">
+        <input name="category" list="category" placeholder="choose from the list"> 
             <datalist id="category">
-                <option value=Shirts>
-                <option value=Dress>
-                <option value=Shoes>
-                <option value=Pants>
-                <option value=Coats>
+                <option value=5e19e8abb1bcf70685c0f2c1>
+                <option value=5e242774be0c9f05ee6e6a91>
+                <option value=5e2427d097202505eefb9829>
             </datalist>
     </p>
     <p>
-        <input type="text" name="item" placeholder="item">
+        <input name="subcategory" list="subcategory" placeholder="choose from the list">
+        <datalist id="subcategory">
+            <option value=T-Shirts>
+            <option value=Dress>
+            <option value=Shoes>
+            <option value=Pants>
+            <option value=Coats>
+            <option value=Sweeters>
+        </datalist>
     </p>
     <p>
-        <textarea rows="12" cols="80" type="text" name="description" placeholder="Write content here"></textarea>
+        New Season
+        <input type="radio" name="newSeason" value="true">true
+        <input type="radio" name="newSeason" value="false">false
     </p>
     <p>
-        <p>size</p>
-        <input type="radio" name="size" value="S"> S<br>
-        <input type="radio" name="size" value="M"> M<br>
-        <input type="radio" name="size" value="L"> L<br>
+        <input type="text" name="title" placeholder="title">
     </p>
     <p>
-        <input type="text" name="price" placeholder="price">
-        $
+        <input type="text" name="image1" placeholder="image link">
+    </p>
+    <p>
+        <input type="text" name="image2" placeholder="image link">
+    </p>
+    <p>
+        <input type="text" name="image3" placeholder="image link">
+    </p>
+    <p>
+        <input type="number" name="price" placeholder="price">
+    </p>
+    <p>
+        <input type="number" name="rating" placeholder="rating">
+    </p>
+    <p>
+        <input type="number" name="discount" placeholder="Discount percentage">
+    </p>
+    <p>
+        Discount
+        <input type="radio" name="sale" value="true">true
+        <input type="radio" name="sale" value="false">false
+    </p>
+    <p>
+        <p>Color</p>
+        <input type="text" name="color" placeholder="color">
+    </p>
+    <p>
+        <p>Other Colors</p>
+        <input type="text" name="colors" placeholder="color" />
+        <input type="text" name="colors" placeholder="color" />
+        <input type="text" name="colors" placeholder="color" />
+    </p>
+    <p>
+        <input type="text" name="sizes" placeholder="size" />
+        <input type="text" name="sizes" placeholder="size" />
+        <input type="text" name="sizes" placeholder="size" />
+    </p>
+    <p>
+        <input type="number" name="inStock" placeholder="XS" />
+        <input type="number" name="inStock" placeholder="S" />
+        <input type="number" name="inStock" placeholder="M" />
+        <input type="number" name="inStock" placeholder="L" />
+        <input type="number" name="inStock" placeholder="XL" />
     </p>
     <button type="submit">Submit</button>
 </form>
 </div>
+</div>
 {% endblock %}
+

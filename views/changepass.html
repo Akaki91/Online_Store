@@ -1,0 +1,20 @@
+{% extends "profile.html" %}
+
+{% block cont %}
+
+<div class="col-sm-2">
+    <p>CURRENT PASSWORD:</p>
+    <p>CURRENT PASSWORD:</p>
+    <p>NEW PASSWORD:</p>
+</div>
+<div class="col-sm-8">
+    <form action="" method="POST">
+        <p><input type="password" name="current-password" placeholder="Current Password"></p>
+        <p><input type="password" name="current-password" placeholder="Repeat current Password"></p>
+        <p><input type="password" name="new-password" placeholder="New Password"></p>
+        <p><button class="btn btn-primary" type="submit">Update</button></p>
+    </form>
+</div>
+
+
+{% endblock %}
