@@ -9,15 +9,17 @@ router.get('/', auth, async (req, res) => {
     res.render('profiledet.html', { user })
 })
 
-router.get('/orders', auth, (req, res) => {
-    res.render('profileord.html')
+router.get('/orders', auth, async (req, res) => {
+    const user = await Account.findById(req.user._id).select('-password')
+    res.render('profileord.html', { user })
 })
 
-router.get('/changepass', auth, (req, res) => {
-    res.render('changepass.html')
+router.get('/changepass', auth, async (req, res) => {
+    const user = await Account.findById(req.user._id).select('-password')
+    res.render('changepass.html', { user })
 })
 
-router.post('/changepass', (req, res) => {
+router.post('/changepass',  (req, res) => {
     res.send('done') //needs to be updated
 })
 

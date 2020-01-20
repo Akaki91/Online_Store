@@ -273,3 +273,730 @@
 {"message":"Connected to MongoDB...","level":"info"}
 {"message":"Listening to port 3000..","level":"info"}
 {"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"name":"Template render error","level":"error","message":"(/Users/akakikoridze/Desktop/GeoApp/views/dtbase-item.html) [Line 33, Column 23]\n  Error: Unable to call `Object[\"values\"]`, which is undefined or falsey(/Users/akakikoridze/Desktop/GeoApp/views/dtbase-item.html) [Line 33, Column 23]\n  Error: Unable to call `Object[\"values\"]`, which is undefined or falsey","stack":"Template render error: (/Users/akakikoridze/Desktop/GeoApp/views/dtbase-item.html) [Line 33, Column 23]\n  Error: Unable to call `Object[\"values\"]`, which is undefined or falsey\n    at Object._prettifyError (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/lib.js:36:11)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/environment.js:567:19\n    at eval (eval at _compile (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/environment.js:637:18), <anonymous>:20:11)\n    at b_content (eval at _compile (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/environment.js:637:18), <anonymous>:80:3)\n    at Template.root [as rootRenderFunc] (eval at _compile (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/environment.js:637:18), <anonymous>:19:86)\n    at eval (eval at _compile (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/environment.js:637:18), <anonymous>:21:16)\n    at eval (eval at _compile (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/environment.js:637:18), <anonymous>:16:46)\n    at eval (eval at _compile (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/environment.js:637:18), <anonymous>:16:86)\n    at createTemplate (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/environment.js:315:9)\n    at handle (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/environment.js:327:11)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/environment.js:339:9\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/lib.js:280:7)\n    at Object.asyncIter (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/lib.js:286:3)\n    at Environment.getTemplate (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/environment.js:321:9)\n    at Template.root [as rootRenderFunc] (eval at _compile (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/environment.js:637:18), <anonymous>:9:5)\n    at Template.render (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/environment.js:556:10)"}
+{"name":"Template render error","level":"error","message":"(/Users/akakikoridze/Desktop/GeoApp/views/dtbase-item.html) [Line 33, Column 23]\n  Error: Unable to call `Object[\"values\"]`, which is undefined or falsey(/Users/akakikoridze/Desktop/GeoApp/views/dtbase-item.html) [Line 33, Column 23]\n  Error: Unable to call `Object[\"values\"]`, which is undefined or falsey","stack":"Template render error: (/Users/akakikoridze/Desktop/GeoApp/views/dtbase-item.html) [Line 33, Column 23]\n  Error: Unable to call `Object[\"values\"]`, which is undefined or falsey\n    at Object._prettifyError (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/lib.js:36:11)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/environment.js:567:19\n    at eval (eval at _compile (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/environment.js:637:18), <anonymous>:20:11)\n    at b_content (eval at _compile (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/environment.js:637:18), <anonymous>:80:3)\n    at Template.root [as rootRenderFunc] (eval at _compile (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/environment.js:637:18), <anonymous>:19:86)\n    at eval (eval at _compile (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/environment.js:637:18), <anonymous>:21:16)\n    at eval (eval at _compile (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/environment.js:637:18), <anonymous>:16:46)\n    at eval (eval at _compile (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/environment.js:637:18), <anonymous>:16:86)\n    at Environment.getTemplate (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/environment.js:279:9)\n    at Template.root [as rootRenderFunc] (eval at _compile (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/environment.js:637:18), <anonymous>:9:5)\n    at Template.render (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/environment.js:556:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/environment.js:366:27\n    at Environment.getTemplate (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/environment.js:279:9)\n    at Environment.render (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/environment.js:360:10)\n    at NunjucksView.render (/Users/akakikoridze/Desktop/GeoApp/node_modules/nunjucks/src/express-app.js:22:9)\n    at tryRender (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/application.js:640:10)"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error","message":"res.send.JSON is not a functionres.send.JSON is not a function","stack":"TypeError: res.send.JSON is not a function\n    at /Users/akakikoridze/Desktop/GeoApp/routes/cart.js:47:14\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at urlencodedParser (/Users/akakikoridze/Desktop/GeoApp/node_modules/body-parser/lib/types/urlencoded.js:82:7)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:47:12)"}
+{"level":"error","message":"res.send.JSON is not a functionres.send.JSON is not a function","stack":"TypeError: res.send.JSON is not a function\n    at /Users/akakikoridze/Desktop/GeoApp/routes/cart.js:47:14\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at urlencodedParser (/Users/akakikoridze/Desktop/GeoApp/node_modules/body-parser/lib/types/urlencoded.js:82:7)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:47:12)"}
+{"level":"error","message":"res.send.JSON is not a functionres.send.JSON is not a function","stack":"TypeError: res.send.JSON is not a function\n    at /Users/akakikoridze/Desktop/GeoApp/routes/cart.js:47:14\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at urlencodedParser (/Users/akakikoridze/Desktop/GeoApp/node_modules/body-parser/lib/types/urlencoded.js:82:7)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:47:12)"}
+{"level":"error","message":"res.send.JSON is not a functionres.send.JSON is not a function","stack":"TypeError: res.send.JSON is not a function\n    at /Users/akakikoridze/Desktop/GeoApp/routes/cart.js:47:14\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at urlencodedParser (/Users/akakikoridze/Desktop/GeoApp/node_modules/body-parser/lib/types/urlencoded.js:82:7)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:47:12)"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error","message":"res.JSON is not a functionres.JSON is not a function","stack":"TypeError: res.JSON is not a function\n    at /Users/akakikoridze/Desktop/GeoApp/routes/cart.js:47:9\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at urlencodedParser (/Users/akakikoridze/Desktop/GeoApp/node_modules/body-parser/lib/types/urlencoded.js:82:7)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:47:12)"}
+{"level":"error","message":"res.JSON is not a functionres.JSON is not a function","stack":"TypeError: res.JSON is not a function\n    at /Users/akakikoridze/Desktop/GeoApp/routes/cart.js:47:9\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at urlencodedParser (/Users/akakikoridze/Desktop/GeoApp/node_modules/body-parser/lib/types/urlencoded.js:82:7)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:47:12)"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error","message":"req.body.JSON is not a functionreq.body.JSON is not a function","stack":"TypeError: req.body.JSON is not a function\n    at /Users/akakikoridze/Desktop/GeoApp/routes/cart.js:47:23\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at urlencodedParser (/Users/akakikoridze/Desktop/GeoApp/node_modules/body-parser/lib/types/urlencoded.js:82:7)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:47:12)"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error","message":"res.JSON is not a functionres.JSON is not a function","stack":"TypeError: res.JSON is not a function\n    at /Users/akakikoridze/Desktop/GeoApp/routes/cart.js:47:9\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at urlencodedParser (/Users/akakikoridze/Desktop/GeoApp/node_modules/body-parser/lib/types/urlencoded.js:82:7)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:47:12)"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error","message":"sessionStorage is not definedsessionStorage is not defined","stack":"ReferenceError: sessionStorage is not defined\n    at /Users/akakikoridze/Desktop/GeoApp/routes/cart.js:47:5\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at urlencodedParser (/Users/akakikoridze/Desktop/GeoApp/node_modules/body-parser/lib/types/urlencoded.js:82:7)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:47:12)"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error","message":"sessionStorage is not definedsessionStorage is not defined","stack":"ReferenceError: sessionStorage is not defined\n    at /Users/akakikoridze/Desktop/GeoApp/routes/cart.js:51:5\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at urlencodedParser (/Users/akakikoridze/Desktop/GeoApp/node_modules/body-parser/lib/types/urlencoded.js:82:7)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:47:12)"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error","message":"Cannot read property 'setItem' of undefinedCannot read property 'setItem' of undefined","stack":"TypeError: Cannot read property 'setItem' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/routes/cart.js:51:25\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at urlencodedParser (/Users/akakikoridze/Desktop/GeoApp/node_modules/body-parser/lib/types/urlencoded.js:82:7)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:47:12)"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error","message":"Cannot read property 'setItem' of undefinedCannot read property 'setItem' of undefined","stack":"TypeError: Cannot read property 'setItem' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/routes/cart.js:51:24\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at urlencodedParser (/Users/akakikoridze/Desktop/GeoApp/node_modules/body-parser/lib/types/urlencoded.js:82:7)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:174:3)\n    at router (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:47:12)"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}

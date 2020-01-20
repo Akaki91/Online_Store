@@ -64,7 +64,7 @@
     background-color:#ef5777
 }
 
-.product-discount-label,.product-grid .product-new-label{
+.product-discount-label, .product-new-label{
     color:#fff;
     background-color:#ef5777;
     font-size:12px;

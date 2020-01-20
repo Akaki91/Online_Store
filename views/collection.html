@@ -2,6 +2,8 @@
 
 {% block content %}
 
+<div class="cont">
+
 <div class="container">
     <div class="sort">
         <button class="btn btn-secondary">CATEGORY</button>
@@ -15,7 +17,7 @@
         <div class="item col-md-3 col-sm-6">
             <div class="product-grid">
                 <div class="product-image">
-                    <a href="#">
+                    <a href="/collection/{{item._id}}">
                         <img class="pic-1" src={{item.image1}}>
                         <img class="pic-2" src={{item.image2}}>
                     </a>
@@ -51,5 +53,7 @@
 
 
     </div>
+</div>
+
 </div>
 {% endblock %}

@@ -12,7 +12,7 @@
     </p>
 <form action="/products/add" method="POST">
     <p>
-        <input name="category" list="category" placeholder="choose from the list"> 
+        <input name="category" list="category" placeholder="choose the category"> 
             <datalist id="category">
                 <option value=5e19e8abb1bcf70685c0f2c1>
                 <option value=5e242774be0c9f05ee6e6a91>
@@ -20,11 +20,11 @@
             </datalist>
     </p>
     <p>
-        <input name="subcategory" list="subcategory" placeholder="choose from the list">
+        <input name="subcategory" list="subcategory" placeholder="choose the subcategory">
         <datalist id="subcategory">
             <option value=T-Shirts>
             <option value=Dress>
-            <option value=Shoes>
+            <option value=Skirts>
             <option value=Pants>
             <option value=Coats>
             <option value=Sweeters>
@@ -48,13 +48,13 @@
         <input type="text" name="image3" placeholder="image link">
     </p>
     <p>
-        <input type="number" name="price" placeholder="price">
+        <input type="number" name="price" placeholder="price">USD
     </p>
     <p>
         <input type="number" name="rating" placeholder="rating">
     </p>
     <p>
-        <input type="number" name="discount" placeholder="Discount percentage">
+        <input type="number" name="discount" placeholder="Discount percentage" step="0.01">
     </p>
     <p>
         Discount
@@ -62,19 +62,24 @@
         <input type="radio" name="sale" value="false">false
     </p>
     <p>
-        <p>Color</p>
-        <input type="text" name="color" placeholder="color">
+        <input name="color" list="color" placeholder="Choose the color">
+        <datalist id="color">
+            <option value=Red>
+            <option value=Blue>
+            <option value=Green>
+            <option value=Black>
+            <option value=White>
+            <option value=Pink>
+            <option value=Yellow>
+            <option value=Brown>
+            <option value=Grey>
+        </datalist>
     </p>
     <p>
         <p>Other Colors</p>
         <input type="text" name="colors" placeholder="color" />
         <input type="text" name="colors" placeholder="color" />
         <input type="text" name="colors" placeholder="color" />
-    </p>
-    <p>
-        <input type="text" name="sizes" placeholder="size" />
-        <input type="text" name="sizes" placeholder="size" />
-        <input type="text" name="sizes" placeholder="size" />
     </p>
     <p>
         <input type="number" name="inStock" placeholder="XS" />
@@ -86,6 +91,7 @@
     <button type="submit">Submit</button>
 </form>
 </div>
+<a href="/admin">Go Back</a>
 </div>
 {% endblock %}
 

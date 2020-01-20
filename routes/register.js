@@ -72,8 +72,6 @@ function validateAccount(account) {
 }
 
 
-// // router.get('/me', async (req, res) => )
-
 
 
 exports.Account = Account

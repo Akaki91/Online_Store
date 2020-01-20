@@ -15,6 +15,7 @@ router.get('/add', [auth, admin], (req, res) => {
 
 router.get('/all', [auth, admin], async (req, res) => {
     const items = await Item.find().sort('item')
+
     res.render('dtbase-item.html', { items })
 })
 

@@ -35,6 +35,39 @@ $(".dropdown").hover(function () {
 });
 
 
+subtotal = () => {
+    let sum = 0
+
+    $(".subprice").each((i, value) => {
+        let el = value.innerText.slice(1)
+        sum += Number(el)
+    })
+    
+    $("#subtotal").append(sum);
+}
+
+subtotal()
+
+
+
+$('#addToCart').on('submit', function (e) {
+
+    $.post('/cart/add', $(this).serialize())
+        .done((resp) => {
+            window.location = '/cart';
+            let cart = JSON.parse(sessionStorage.getItem('cart') || '[]')
+            cart.push(resp)
+            sessionStorage.setItem('cart', JSON.stringify(cart));
+
+        })
+        .fail((error) => {
+            console.log("error");
+            
+        });
+
+})
+
+
 
 // sorting querry
 

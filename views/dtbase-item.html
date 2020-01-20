@@ -15,8 +15,12 @@
 				<th scope="col">Price</th>
 				<th scope="col">Discount</th>
 				<th scope="col">Color</th>
-				<th scope="col">Sizes</th>
-				<th scope="col">In Stock</th>
+				<th scope="col">XS</th>
+				<th scope="col">S</th>
+				<th scope="col">M</th>
+				<th scope="col">L</th>
+				<th scope="col">XL</th>
+				<th scope="col">All Stock</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -30,12 +34,19 @@
 				<td>{{item.price}}</td>
 				<td>{{item.discount}}</td>
 				<td>{{item.color}}</td>
-				<td>{{item.sizes}}</td>
-				<td>{{item.inStock}}</td>
+				<td>{{item.inStock.XS}}</td>
+				<td>{{item.inStock.S}}</td>
+				<td>{{item.inStock.M}}</td>
+				<td>{{item.inStock.L}}</td>
+				<td>{{item.inStock.XL}}</td>
+				<td>{{item.inStock.XS + item.inStock.S +
+					item.inStock.M + item.inStock.L +
+				item.inStock.XL}}</td>
 			</tr>
 			{% endfor %}
 		</tbody>
 	</table>
+	<a href="/admin">Go Back</a>
 </div>
 
 {% endblock %}

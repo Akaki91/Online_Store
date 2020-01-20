@@ -23,8 +23,7 @@ const Item = mongoose.model('Item', new mongoose.Schema({
     sale: Boolean,
     color: String,
     colors: [String],
-    sizes: [String],
-    inStock: [Number],
+    inStock: Object 
 }))
 
 function validate(req) {
@@ -42,7 +41,6 @@ function validate(req) {
         sale: Joi.boolean().required(),
         color: Joi.string().required(),
         colors: Joi.array().required(),
-        sizes: Joi.array().required(),
         inStock: Joi.array().required(),
     };
 
@@ -53,6 +51,12 @@ function validate(req) {
 router.post('/add', [auth, admin], async (req, res) => {
     const { error } = validate(req.body);
     if (error) return res.status(400).send(error.details[0].message)
+
+    let keys = ["XS", "S", "M", "L", "XL"]
+    result = {}
+    keys.forEach((key, i) =>
+        result[key] = Number(req.body.inStock[i])
+    )
 
     let item = new Item({ 
         category: req.body.category,
@@ -68,8 +72,7 @@ router.post('/add', [auth, admin], async (req, res) => {
         sale: req.body.sale,
         color: req.body.color,
         colors: req.body.colors,
-        sizes: req.body.sizes,
-        inStock: req.body.inStock,
+        inStock: result,
     })
 
     try {

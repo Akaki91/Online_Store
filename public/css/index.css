@@ -4,12 +4,12 @@
 
 .maincontainer {
     padding-top: 100px;
-    padding-bottom: 90px
 }
 
 .cont {
     padding-left: 40px;
     padding-right: 40px;
+    padding-bottom: 90px
 }
 
 .navbar {
@@ -17,6 +17,7 @@
     background-color: white;
     z-index: 10;
     overflow: visible;
+    border-bottom: solid lightgrey 1px;
 }
 
 
@@ -26,7 +27,7 @@
 
 .logo {
     margin: 5px 70px 5px 25px;
-    height: 60px;
+    height: 50px;
 }
 
 
@@ -86,7 +87,6 @@
 .txt h1 {
 	position: absolute;
 	bottom: 0;
-	/* left: 50%; */
 }
 
 
@@ -136,4 +136,13 @@ h5 {
 
 #search:focus {
     width: 30px;
+}
+
+
+.previewIcon {
+    width: 100px;
+}
+
+.subtotal {
+    float: right;
 }
