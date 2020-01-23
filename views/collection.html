@@ -39,8 +39,8 @@
                         {% endfor %}
                     </ul>
                     {% if item.sale %}
-                    <div class="price">${{item.price * (1 - item.discount)}}
-                        <span>${{item.price}}</span>
+                    <div class="price">${{item.price}}
+                        <span>${{item.price // (1 - item.discount)}}</span>
                     </div>
                     {% else %}
                     <div class="price">${{item.price}}</div>

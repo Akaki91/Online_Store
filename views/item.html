@@ -54,8 +54,8 @@
                     {% endfor %}
                 </ul>
                 {% if item.sale %}
-                <div class="price">${{item.price * (1 - item.discount)}}
-                    <span>${{item.price}}</span>
+                <div class="price">${{item.price}}
+                    <span>${{item.price // (1 - item.discount)}}</span>
                 </div>
                 {% else %}
                 <div class="price">${{item.price}}</div>
@@ -72,7 +72,7 @@
                 <form id="addToCart" action="/cart/add" method="POST">
                 <div class="size">
                     <p>
-                        <input name="size" list="size" placeholder="Choose Size">
+                        <input name="size" list="size" placeholder="Choose Size" required>
                         <datalist id="size">
                             {% for size, amount in item.inStock %}
                                 {% if (amount > 0) %}
@@ -81,13 +81,14 @@
                             {% endfor %}
                         </datalist>
                     </p>
-                    <input type="hidden" name="_id" value={{item._id}}>
+                    <input type="hidden" name="id" value={{item._id}}>
+                    <input type="hidden" name="color" value={{item.color}}>
                 </div>
                     <button type="submit" class="btn btn-info">Add to the Cart</button>
                 </form>
             </div>
+            <div class="alert" role="alert"></div>
         </div>
-
 
 
 

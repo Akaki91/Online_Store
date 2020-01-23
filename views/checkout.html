@@ -1,0 +1,103 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="cont">
+    <p>
+        <h2> Checkout</h2>
+    </p>
+    <hr>
+
+    
+
+                <div class="container">
+                    <div class="row">
+                            <div class="col-md-2"></div>
+                            
+                            <div class="col-md-8">
+                                <h4>YOUR TOTAL: ${{session.cart.totalPrice}}</h3>
+                                <h3><strong>Billing Address:</strong> </h3>
+                                <form id="checkout" action="/checkout" method="POST">
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <label for="firstName">First name</label>
+                                            <input type="text" name="firstName" class="form-control" required>
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <label for="lastName">Last name</label>
+                                            <input type="text" name="lastName" class="form-control" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="email">Email</label>
+                                        <input type="email" name="email" class="form-control" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="address">Address</label>
+                                        <input type="text" class="form-control" name="address" required>
+                                    </div>
+                        
+                                    <div class="row">
+                                        <div class="col-md-5 mb-3">
+                                            <label for="country">Country</label>
+                                            <select class="custom-select d-block w-100" class="country" required>
+                                                <option value="">Choose...</option>
+                                                <option>United States</option>
+                                                <option>Canada</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <label for="state">State</label>
+                                            <select class="custom-select d-block w-100" name="state" required>
+                                                <option value="">Choose...</option>
+                                                <option>California</option>
+                                                <option>New York</option>
+                                            </select>
+                                            <div class="invalid-feedback"> Please provide a valid state. </div>
+                                        </div>
+                                        <div class="col-md-3 mb-3">
+                                            <label for="zip">Zip</label>
+                                            <input type="text" class="form-control" name="zip" required>
+                                        </div>
+                                    </div>
+
+                                    
+                                    <hr>
+                                    <input type="checkbox" name="vehicle" checked>
+                                    Billing Address is the same as Shipping Address
+                                    <hr>
+
+                                    <h4 class="mb-3">Payment</h4>
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <label for="cc-name">Full name as displayed on card</label>
+                                            <input type="text" class="form-control" name="cc-name" required>
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <label for="cc-number">Credit card number</label>
+                                            <input type="text" class="form-control" name="cc-number" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-3 mb-3">
+                                            <label for="cc-expiration">Expiration</label>
+                                            <input type="text" class="form-control" name="cc-expiration" placeholder="" required="">
+                                        </div>
+                                        <div class="col-md-3 mb-3">
+                                            <label for="cc-cvv">CVV</label>
+                                            <input type="text" class="form-control" name="cc-cvv" placeholder="" required="">
+                                        </div>
+                                    </div>
+                                    <hr class="mb-4">
+                                    <button class="btn btn-primary btn-lg btn-block" type="submit">Click to Pay</button>
+                                </form>
+                            </div>
+                            <div class="col-md-2"></div>
+                    </div>
+                </div>
+
+    </div>
+</div>
+
+{% endblock %}

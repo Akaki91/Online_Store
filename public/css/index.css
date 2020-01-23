@@ -1,5 +1,6 @@
 *{
     font-family: 'Nunito', sans-serif;
+    box-sizing: border-box
 }
 
 .maincontainer {
@@ -98,7 +99,7 @@ h5 {
     font-size: 13px;
 }
 
-.form-group {
+.modal-body .form-group {
     width: 220px;
     height: 220px;
     float: none;
@@ -145,4 +146,10 @@ h5 {
 
 .subtotal {
     float: right;
+}
+
+
+#checkout {
+    /* text-align: center; */
+    margin: 0 auto;
 }

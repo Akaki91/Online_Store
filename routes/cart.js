@@ -2,66 +2,72 @@ const mongoose = require('mongoose')
 const express = require('express')
 const router = express.Router()
 const bodyParser = require('body-parser')
-const Joi = require('joi')
 const auth = require('../middleware/login')
 const admin = require('../middleware/admin')
+const Cart = require('../models/cart')
+const { Item } = require('../models/item')
 
 router.use(bodyParser.urlencoded({ extended: false }))
-
-let cart = [
-    {
-        id: "jadkok",
-        title: "Evening Dress",
-        img: "https://www.reserved.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/Y/J/YJ298-00X-001.jpg",
-        size: "XS",
-        price: 15,
-        quantity: 1
-    },
-    {
-        title: "T-shirt",
-        img: "https://www.reserved.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/Y/J/YJ298-00X-003.jpg",
-        size: "S",
-        price: 12,
-        quantity: 1
-    },
-    {
-        title: "T-shirt",
-        img: "https://www.reserved.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/Y/F/YF709-99X-001.jpg",
-        size: "M",
-        price: 17,
-        quantity: 1
-    }
-]
 
 
 router.get("/", (req, res) => {
     
+    let cart = new Cart(req.session.cart ? req.session.cart : [])
 
-
-    res.render("cart.html", {cart})
-})
-
-router.post("/add", (req, res) => {
-    // let obj = {
-    //     _id: req.body.id,
-    //     size: req.body.size
-    // }
-
-    res.status(200).json(req.body)
+    res.render("cart.html", { cart })
 })
 
 
-const Cart = mongoose.model('Cart', new mongoose.Schema({
-    item: [mongoose.Schema.Types.ObjectId],
-    title: String,
-    price: Number,
-    rating: Number,
-    discount: mongoose.Schema.Types.Decimal128,
-    sale: Boolean,
-    color: String,
-    colors: [String],
-    inStock: Object
-}))
+router.get("/checkout", auth, (req, res) => {
+
+    res.render("checkout.html")
+})
+
+router.post("/add", async (req, res) => {
+
+    let cart = new Cart(req.session.cart ? req.session.cart : [])
+    
+    const item = await Item.findById(req.body.id)
+    if (!item) return res.status(400).json('Item is no longer available')
+    
+    cart.add(req.body.id, req.body.size, req.body.color, item.title, item.image1, item.price)
+    req.session.cart = cart
+    
+    res.status(200).json("Item has been added to the cart")
+})
+
+
+router.post("/delete", (req, res) => {
+
+    let cart = new Cart(req.session.cart)
+    cart.remove(req.body.id, req.body.size)
+    req.session.cart = cart
+
+    res.status(200).redirect('/cart')
+})
+
+
+router.post("/update", (req, res) => { 
+
+    let cart = new Cart(req.session.cart)
+
+    let qty = Number(req.body.qty)
+    cart.update(req.body.id, req.body.size, qty)
+    req.session.cart = cart
+    
+    res.status(200).redirect('/cart')
+})
+
+
+
+
+
+// const Cart = mongoose.model('Cart', new mongoose.Schema({
+//     items: [mongoose.Schema.Types.ObjectId]
+
+// }))
+
+
 
 
 module.exports = router

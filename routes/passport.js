@@ -3,7 +3,7 @@ const router = express.Router()
 const passport = require('passport')
 const LocalStrategy = require('passport-local').Strategy
 const FacebookStrategy = require('passport-facebook').Strategy
-const { Account } = require('./register')
+const { Account } = require('../models/register')
 const bodyParser = require('body-parser')
 const keys = require('../config/keys')
 

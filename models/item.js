@@ -5,7 +5,6 @@ const bodyParser = require('body-parser')
 const Joi = require('joi')
 const auth = require('../middleware/login')
 const admin = require('../middleware/admin')
-// const asyncMiddleware = require('../middleware/async')
 
 router.use(bodyParser.urlencoded({ extended: false }))
 
@@ -47,8 +46,7 @@ function validate(req) {
     return Joi.validate(req, schema);
 }
 
-
-router.post('/add', [auth, admin], async (req, res) => {
+router.post('/', [auth, admin], async (req, res) => {
     const { error } = validate(req.body);
     if (error) return res.status(400).send(error.details[0].message)
 
@@ -58,7 +56,7 @@ router.post('/add', [auth, admin], async (req, res) => {
         result[key] = Number(req.body.inStock[i])
     )
 
-    let item = new Item({ 
+    let item = new Item({
         category: req.body.category,
         subcategory: req.body.subcategory,
         newSeason: req.body.newSeason,
@@ -82,12 +80,10 @@ router.post('/add', [auth, admin], async (req, res) => {
     }
     catch (ex) {
         for (field in ex.errors)
-        console.log(ex.errors[field].message);
+            console.log(ex.errors[field].message);
     }
 })
 
 
-
-  
-exports.products = router
 exports.Item = Item
+exports.additem = router

@@ -53,11 +53,6 @@ router.post('/', async (req, res) => {
 
     await account.save()
     return res.status(200).json('You have registered sucessfully. Please Sign In below')
-    // const token = account.generateAuthToken()
-
-    // res.header('x-auth-token', token)
-    // res.redirect('/profile')
-    //.send('Your account has been saved. please login')
 })
 
 

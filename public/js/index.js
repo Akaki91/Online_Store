@@ -35,39 +35,34 @@ $(".dropdown").hover(function () {
 });
 
 
-subtotal = () => {
-    let sum = 0
-
-    $(".subprice").each((i, value) => {
-        let el = value.innerText.slice(1)
-        sum += Number(el)
-    })
-    
-    $("#subtotal").append(sum);
-}
-
-subtotal()
-
-
 
 $('#addToCart').on('submit', function (e) {
+    e.preventDefault()
 
     $.post('/cart/add', $(this).serialize())
         .done((resp) => {
-            window.location = '/cart';
-            let cart = JSON.parse(sessionStorage.getItem('cart') || '[]')
-            cart.push(resp)
-            sessionStorage.setItem('cart', JSON.stringify(cart));
-
+            
+            $(".alert").addClass("alert-success").append(resp)
+            setTimeout(function () {
+                $(".alert").removeClass("alert-success").empty();
+            }, 2000)
         })
         .fail((error) => {
-            console.log("error");
+            $(".alert").addClass("alert-danger").append(error)
+            setTimeout(function () {
+                $(".alert").removeClass("alert-success").empty();
+            }, 2000)
             
         });
 
 })
 
 
+
+$("#updateQty").on('change', function (e) {
+
+    $(this).submit()  
+})
 
 // sorting querry
 

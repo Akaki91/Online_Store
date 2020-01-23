@@ -2,18 +2,18 @@ const winston = require('winston')
 const mongoose = require('mongoose')
 const express = require('express')
 const app = express()
+const session = require("express-session")
+const MongoStore = require("connect-mongo")(session)
 const nunjucks = require('nunjucks')
 const bodyParser = require('body-parser')
 const login = require('./routes/login')
-const { products, Item } = require('./routes/products')
+const { additem, Item } = require('./models/item')
 const profile = require('./routes/profile')
-const { register } = require('./routes/register')
+const { register } = require('./models/register')
 const adminroute = require('./routes/admin')
 const cart = require('./routes/cart')
 const config = require('config')
 const error = require('./middleware/error')
-const auth = require('./middleware/login')
-const admin = require('./middleware/admin')
 const cookieParser = require('cookie-parser');
 const jwt = require('jsonwebtoken')
 require('express-async-errors')
@@ -42,6 +42,13 @@ mongoose.connect('mongodb://localhost/storeitems', { useUnifiedTopology: true, u
 app.use(cookieParser());
 app.use(express.static('public'))
 app.use(bodyParser.urlencoded({ extended: false }))
+app.use(session({
+    secret: 'mysecret',
+    resave: false,
+    saveUninitialized: false,
+    store: new MongoStore({ mongooseConnection: mongoose.connection}),
+    cookie: { maxAge: 180 * 60 * 1000}
+}))
 
 let env = nunjucks.configure('views', {
     autoescape: true,
@@ -58,9 +65,14 @@ app.use((req, res, next) => {
     next();
 });
 
+app.use((req, res, next) => {
+    res.locals.session = req.session,
+    next()
+})
+
 app.use('/login', login)
-app.use('/products', products)
 app.use('/register', register) 
+app.use('/additem', additem)
 app.use('/profile', profile)
 app.use('/admin', adminroute)
 app.use('/cart', cart)
@@ -84,6 +96,7 @@ app.get('/collection/:id', async (req, res) => {
 
     res.render('item.html', { item } )
 })
+
 
 
 app.get('/home', async (req, res) => {

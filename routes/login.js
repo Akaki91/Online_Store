@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 const session = require('express-session')
 // const FileStore = require('session-file-store')(session)
 const passport = require('./passport')
-const { Account } = require('./register')
+const { Account } = require('../models/register')
 const Joi = require('joi')
 
 router.use(bodyParser.urlencoded({ extended: false }))
