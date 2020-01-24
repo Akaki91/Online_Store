@@ -75,7 +75,6 @@ router.post('/', [auth, admin], async (req, res) => {
 
     try {
         item = await item.save()
-        console.log(item);
         res.redirect('/collection')
     }
     catch (ex) {

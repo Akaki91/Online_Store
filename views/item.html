@@ -47,7 +47,10 @@
         <div class="col-md-6 col-sm-12">
 
             <div>
-                <h3 class="title"><a href="#">{{item.title}}</a></h3>
+                {% if item.newSeason %}
+                <p class="text-info">New Season</p>
+                {% endif %}
+                <h4 class="title"><a href="#">{{item.title}}</a></h4>
                 <ul class="rating">
                     {% for i in range(0, item.rating) %}
                     <li class="fa fa-star"></li>
@@ -63,9 +66,9 @@
                 <div class="color">
                     <p>This color: {{item.color}}</p>
                     <p>
-                    <p>Available Colors</p>
+                    <p>Other Colors</p>
                     {% for color in item.colors %}
-                    <a href="" class="btn-info">{{color}}</a>
+                    <a href="">{{color}}</a>
                     {% endfor %}
                     </p>
                 </div>

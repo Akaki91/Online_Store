@@ -7,11 +7,12 @@ const MongoStore = require("connect-mongo")(session)
 const nunjucks = require('nunjucks')
 const bodyParser = require('body-parser')
 const login = require('./routes/login')
-const { additem, Item } = require('./models/item')
+const { additem } = require('./models/item')
 const profile = require('./routes/profile')
 const { register } = require('./models/register')
 const adminroute = require('./routes/admin')
 const cart = require('./routes/cart')
+const collection = require('./routes/collection')
 const config = require('config')
 const error = require('./middleware/error')
 const cookieParser = require('cookie-parser');
@@ -47,7 +48,7 @@ app.use(session({
     resave: false,
     saveUninitialized: false,
     store: new MongoStore({ mongooseConnection: mongoose.connection}),
-    cookie: { maxAge: 180 * 60 * 1000}
+    cookie: { maxAge:30 * 24 * 60 * 60 * 1000}
 }))
 
 let env = nunjucks.configure('views', {
@@ -57,10 +58,15 @@ let env = nunjucks.configure('views', {
 
 app.use((req, res, next) => {
     const token = req.cookies.jwt;
+    // const sid = req.cookies["connect.sid"]
     let isAuthorized = false;
     if (token) {
         isAuthorized = jwt.verify(token, config.get('jwtPrivateKey'));
     }
+    // else if (req.sessionID) {
+    //     isAuthorized = jwt.verify(req.sessionID, config.get('jwtPrivateKey'))
+    // }
+
     env.addGlobal('isAuthorized', isAuthorized);
     next();
 });
@@ -73,6 +79,7 @@ app.use((req, res, next) => {
 app.use('/login', login)
 app.use('/register', register) 
 app.use('/additem', additem)
+app.use('/collection', collection)
 app.use('/profile', profile)
 app.use('/admin', adminroute)
 app.use('/cart', cart)
@@ -85,22 +92,8 @@ app.get('/', (req, res) => {
 })
 
 
-app.get('/collection', async (req, res) => {
-    const items = await Item.find().sort('item')
-
-    res.render('collection.html', { items })
-})
-
-app.get('/collection/:id', async (req, res) => {
-    const item = await Item.findById(req.params.id)
-
-    res.render('item.html', { item } )
-})
-
-
-
-app.get('/home', async (req, res) => {
-    res.send('hi')
+app.get('/home', (req, res) => {
+    res.json(req.query)
 })
 
 //-------------------------------------------------------------------

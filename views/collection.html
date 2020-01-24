@@ -5,12 +5,26 @@
 <div class="cont">
 
 <div class="container">
-    <div class="sort">
-        <button class="btn btn-secondary">CATEGORY</button>
-        <button class="btn btn-secondary">PRICE</button>
-        <button class="btn btn-secondary">SIZE</button>
-        <button class="btn btn-secondary">NEWEST</button>
-    </div>
+        <!-- <button onclick="sortby()" class="btn btn-secondary">Sort by Price</button> -->
+        <!-- <form id="sortby" action="">
+            <select class="sortby btn btn-secondary" name="sortby">
+                <option selected>Sort by Price</option>
+                <option value="downsort">Descending Order</option>
+                <option value="upsort">Ascending Order</option>
+            </select>
+        </form> -->
+
+
+        <div class="btn-group">
+            <a class="btn btn-primary text-light" role="button" data-toggle="dropdown">
+                Sort by Price
+            </a>
+        
+            <div class="dropdown-menu" >
+                <button id="desc" class="dropdown-item">Descending Order</button>
+                <button id="asce" class="dropdown-item">Ascending Order</button>
+            </div>
+        </div>
     <div class="row">
         
         {% for item in items %}

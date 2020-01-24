@@ -1730,3 +1730,516 @@
 {"level":"error","message":"Cannot read property 'items' of undefinedCannot read property 'items' of undefined","stack":"TypeError: Cannot read property 'items' of undefined\n    at new Cart (/Users/akakikoridze/Desktop/GeoApp/models/cart.js:3:30)\n    at /Users/akakikoridze/Desktop/GeoApp/routes/cart.js:15:16\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:137:13)\n    at Route.dispatch (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:112:3)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:281:22\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at urlencodedParser (/Users/akakikoridze/Desktop/GeoApp/node_modules/body-parser/lib/types/urlencoded.js:91:7)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at Function.handle (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:174:3)"}
 {"message":"Listening to port 3000..","level":"info"}
 {"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error","message":"passport.initialize() middleware not in usepassport.initialize() middleware not in use","stack":"Error: passport.initialize() middleware not in use\n    at IncomingMessage.req.login.req.logIn (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/http/request.js:46:34)\n    at Strategy.strategy.success (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/middleware/authenticate.js:253:13)\n    at verified (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport-oauth2/lib/strategy.js:186:20)\n    at Strategy._verify (/Users/akakikoridze/Desktop/GeoApp/routes/passport.js:43:9)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport-oauth2/lib/strategy.js:202:24\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport-facebook/lib/strategy.js:183:5\n    at passBackControl (/Users/akakikoridze/Desktop/GeoApp/node_modules/oauth/lib/oauth2.js:134:9)\n    at IncomingMessage.<anonymous> (/Users/akakikoridze/Desktop/GeoApp/node_modules/oauth/lib/oauth2.js:157:7)\n    at IncomingMessage.emit (events.js:215:7)\n    at endReadableNT (_stream_readable.js:1184:12)\n    at processTicksAndRejections (internal/process/task_queues.js:80:21)"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error","message":"passport.initialize() middleware not in usepassport.initialize() middleware not in use","stack":"Error: passport.initialize() middleware not in use\n    at IncomingMessage.req.login.req.logIn (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/http/request.js:46:34)\n    at Strategy.strategy.success (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/middleware/authenticate.js:253:13)\n    at verified (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport-oauth2/lib/strategy.js:186:20)\n    at Strategy._verify (/Users/akakikoridze/Desktop/GeoApp/routes/passport.js:43:9)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport-oauth2/lib/strategy.js:202:24\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport-facebook/lib/strategy.js:183:5\n    at passBackControl (/Users/akakikoridze/Desktop/GeoApp/node_modules/oauth/lib/oauth2.js:134:9)\n    at IncomingMessage.<anonymous> (/Users/akakikoridze/Desktop/GeoApp/node_modules/oauth/lib/oauth2.js:157:7)\n    at IncomingMessage.emit (events.js:215:7)\n    at endReadableNT (_stream_readable.js:1184:12)\n    at processTicksAndRejections (internal/process/task_queues.js:80:21)"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error","message":"passport.initialize() middleware not in usepassport.initialize() middleware not in use","stack":"Error: passport.initialize() middleware not in use\n    at IncomingMessage.req.login.req.logIn (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/http/request.js:46:34)\n    at Strategy.strategy.success (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/middleware/authenticate.js:253:13)\n    at verified (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport-oauth2/lib/strategy.js:186:20)\n    at Strategy._verify (/Users/akakikoridze/Desktop/GeoApp/routes/passport.js:43:9)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport-oauth2/lib/strategy.js:202:24\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport-facebook/lib/strategy.js:183:5\n    at passBackControl (/Users/akakikoridze/Desktop/GeoApp/node_modules/oauth/lib/oauth2.js:134:9)\n    at IncomingMessage.<anonymous> (/Users/akakikoridze/Desktop/GeoApp/node_modules/oauth/lib/oauth2.js:157:7)\n    at IncomingMessage.emit (events.js:215:7)\n    at endReadableNT (_stream_readable.js:1184:12)\n    at processTicksAndRejections (internal/process/task_queues.js:80:21)"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error","message":"passport.initialize() middleware not in usepassport.initialize() middleware not in use","stack":"Error: passport.initialize() middleware not in use\n    at IncomingMessage.req.login.req.logIn (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/http/request.js:46:34)\n    at Strategy.strategy.success (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/middleware/authenticate.js:253:13)\n    at verified (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport-oauth2/lib/strategy.js:186:20)\n    at Strategy._verify (/Users/akakikoridze/Desktop/GeoApp/routes/passport.js:43:9)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport-oauth2/lib/strategy.js:202:24\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport-facebook/lib/strategy.js:183:5\n    at passBackControl (/Users/akakikoridze/Desktop/GeoApp/node_modules/oauth/lib/oauth2.js:134:9)\n    at IncomingMessage.<anonymous> (/Users/akakikoridze/Desktop/GeoApp/node_modules/oauth/lib/oauth2.js:157:7)\n    at IncomingMessage.emit (events.js:215:7)\n    at endReadableNT (_stream_readable.js:1184:12)\n    at processTicksAndRejections (internal/process/task_queues.js:80:21)"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error","message":"passport.initialize() middleware not in usepassport.initialize() middleware not in use","stack":"Error: passport.initialize() middleware not in use\n    at IncomingMessage.req.login.req.logIn (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/http/request.js:46:34)\n    at Strategy.strategy.success (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/middleware/authenticate.js:253:13)\n    at verified (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport-oauth2/lib/strategy.js:186:20)\n    at Strategy._verify (/Users/akakikoridze/Desktop/GeoApp/routes/passport.js:43:9)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport-oauth2/lib/strategy.js:202:24\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport-facebook/lib/strategy.js:183:5\n    at passBackControl (/Users/akakikoridze/Desktop/GeoApp/node_modules/oauth/lib/oauth2.js:134:9)\n    at IncomingMessage.<anonymous> (/Users/akakikoridze/Desktop/GeoApp/node_modules/oauth/lib/oauth2.js:157:7)\n    at IncomingMessage.emit (events.js:215:7)\n    at endReadableNT (_stream_readable.js:1184:12)\n    at processTicksAndRejections (internal/process/task_queues.js:80:21)"}
+{"level":"error","message":"passport.initialize() middleware not in usepassport.initialize() middleware not in use","stack":"Error: passport.initialize() middleware not in use\n    at IncomingMessage.req.login.req.logIn (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/http/request.js:46:34)\n    at Strategy.strategy.success (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/middleware/authenticate.js:253:13)\n    at verified (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport-oauth2/lib/strategy.js:186:20)\n    at Strategy._verify (/Users/akakikoridze/Desktop/GeoApp/routes/passport.js:43:9)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport-oauth2/lib/strategy.js:202:24\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport-facebook/lib/strategy.js:183:5\n    at passBackControl (/Users/akakikoridze/Desktop/GeoApp/node_modules/oauth/lib/oauth2.js:134:9)\n    at IncomingMessage.<anonymous> (/Users/akakikoridze/Desktop/GeoApp/node_modules/oauth/lib/oauth2.js:157:7)\n    at IncomingMessage.emit (events.js:215:7)\n    at endReadableNT (_stream_readable.js:1184:12)\n    at processTicksAndRejections (internal/process/task_queues.js:80:21)"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error","message":"Failed to serialize user into sessionFailed to serialize user into session","stack":"Error: Failed to serialize user into session\n    at pass (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/authenticator.js:281:19)\n    at Authenticator.serializeUser (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/authenticator.js:299:5)\n    at SessionManager.logIn (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/sessionmanager.js:14:8)\n    at IncomingMessage.req.login.req.logIn (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/http/request.js:50:33)\n    at Strategy.strategy.success (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/middleware/authenticate.js:253:13)\n    at verified (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport-oauth2/lib/strategy.js:186:20)\n    at Strategy._verify (/Users/akakikoridze/Desktop/GeoApp/routes/passport.js:43:9)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport-oauth2/lib/strategy.js:202:24\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport-facebook/lib/strategy.js:183:5\n    at passBackControl (/Users/akakikoridze/Desktop/GeoApp/node_modules/oauth/lib/oauth2.js:134:9)\n    at IncomingMessage.<anonymous> (/Users/akakikoridze/Desktop/GeoApp/node_modules/oauth/lib/oauth2.js:157:7)\n    at IncomingMessage.emit (events.js:215:7)\n    at endReadableNT (_stream_readable.js:1184:12)\n    at processTicksAndRejections (internal/process/task_queues.js:80:21)"}
+{"level":"error","message":"Failed to serialize user into sessionFailed to serialize user into session","stack":"Error: Failed to serialize user into session\n    at pass (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/authenticator.js:281:19)\n    at Authenticator.serializeUser (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/authenticator.js:299:5)\n    at SessionManager.logIn (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/sessionmanager.js:14:8)\n    at IncomingMessage.req.login.req.logIn (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/http/request.js:50:33)\n    at Strategy.strategy.success (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/middleware/authenticate.js:253:13)\n    at verified (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport-oauth2/lib/strategy.js:186:20)\n    at Strategy._verify (/Users/akakikoridze/Desktop/GeoApp/routes/passport.js:43:9)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport-oauth2/lib/strategy.js:202:24\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport-facebook/lib/strategy.js:183:5\n    at passBackControl (/Users/akakikoridze/Desktop/GeoApp/node_modules/oauth/lib/oauth2.js:134:9)\n    at IncomingMessage.<anonymous> (/Users/akakikoridze/Desktop/GeoApp/node_modules/oauth/lib/oauth2.js:157:7)\n    at IncomingMessage.emit (events.js:215:7)\n    at endReadableNT (_stream_readable.js:1184:12)\n    at processTicksAndRejections (internal/process/task_queues.js:80:21)"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error","message":"generateAuthToken is not definedgenerateAuthToken is not defined","stack":"ReferenceError: generateAuthToken is not defined\n    at /Users/akakikoridze/Desktop/GeoApp/routes/login.js:59:23\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:137:13)\n    at complete (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/middleware/authenticate.js:268:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/middleware/authenticate.js:275:15\n    at pass (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/authenticator.js:431:14)\n    at Authenticator.transformAuthInfo (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/authenticator.js:453:5)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/middleware/authenticate.js:272:22\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/http/request.js:52:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/sessionmanager.js:26:5\n    at pass (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/authenticator.js:277:43)\n    at serialized (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/authenticator.js:286:7)\n    at /Users/akakikoridze/Desktop/GeoApp/routes/passport.js:26:5\n    at pass (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/authenticator.js:294:9)\n    at Authenticator.serializeUser (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/authenticator.js:299:5)\n    at SessionManager.logIn (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/sessionmanager.js:14:8)"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error","message":"passport.initialize() middleware not in usepassport.initialize() middleware not in use","stack":"Error: passport.initialize() middleware not in use\n    at IncomingMessage.req.login.req.logIn (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/http/request.js:46:34)\n    at Strategy.strategy.success (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/middleware/authenticate.js:253:13)\n    at verified (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport-oauth2/lib/strategy.js:186:20)\n    at Strategy._verify (/Users/akakikoridze/Desktop/GeoApp/routes/passport.js:43:9)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport-oauth2/lib/strategy.js:202:24\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport-facebook/lib/strategy.js:183:5\n    at passBackControl (/Users/akakikoridze/Desktop/GeoApp/node_modules/oauth/lib/oauth2.js:134:9)\n    at IncomingMessage.<anonymous> (/Users/akakikoridze/Desktop/GeoApp/node_modules/oauth/lib/oauth2.js:157:7)\n    at IncomingMessage.emit (events.js:215:7)\n    at endReadableNT (_stream_readable.js:1184:12)\n    at processTicksAndRejections (internal/process/task_queues.js:80:21)"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error","message":"generateAuthToken is not definedgenerateAuthToken is not defined","stack":"ReferenceError: generateAuthToken is not defined\n    at /Users/akakikoridze/Desktop/GeoApp/routes/login.js:59:23\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:137:13)\n    at complete (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/middleware/authenticate.js:268:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/middleware/authenticate.js:275:15\n    at pass (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/authenticator.js:431:14)\n    at Authenticator.transformAuthInfo (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/authenticator.js:453:5)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/middleware/authenticate.js:272:22\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/http/request.js:52:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/sessionmanager.js:26:5\n    at pass (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/authenticator.js:277:43)\n    at serialized (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/authenticator.js:286:7)\n    at /Users/akakikoridze/Desktop/GeoApp/routes/passport.js:26:5\n    at pass (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/authenticator.js:294:9)\n    at Authenticator.serializeUser (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/authenticator.js:299:5)\n    at SessionManager.logIn (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/sessionmanager.js:14:8)"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error","message":"user.generateAuthToken is not a functionuser.generateAuthToken is not a function","stack":"TypeError: user.generateAuthToken is not a function\n    at /Users/akakikoridze/Desktop/GeoApp/routes/login.js:63:28\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/route.js:137:13)\n    at complete (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/middleware/authenticate.js:268:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/middleware/authenticate.js:275:15\n    at pass (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/authenticator.js:431:14)\n    at Authenticator.transformAuthInfo (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/authenticator.js:453:5)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/middleware/authenticate.js:272:22\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/http/request.js:52:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/sessionmanager.js:26:5\n    at pass (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/authenticator.js:277:43)\n    at serialized (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/authenticator.js:286:7)\n    at /Users/akakikoridze/Desktop/GeoApp/routes/passport.js:43:5\n    at pass (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/authenticator.js:294:9)\n    at Authenticator.serializeUser (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/authenticator.js:299:5)\n    at SessionManager.logIn (/Users/akakikoridze/Desktop/GeoApp/node_modules/passport/lib/sessionmanager.js:14:8)"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"level":"error","message":"Cannot read property 'sid' of undefinedCannot read property 'sid' of undefined","stack":"TypeError: Cannot read property 'sid' of undefined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:37\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error","message":"connect is not definedconnect is not defined","stack":"ReferenceError: connect is not defined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:61:29\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"level":"error","message":"sid is not definedsid is not defined","stack":"ReferenceError: sid is not defined\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:66:10\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"name":"JsonWebTokenError","message":"jwt malformedjwt malformed","level":"error","stack":"JsonWebTokenError: jwt malformed\n    at Object.module.exports [as verify] (/Users/akakikoridze/Desktop/GeoApp/node_modules/jsonwebtoken/verify.js:63:17)\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:67:28\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"name":"JsonWebTokenError","message":"jwt malformedjwt malformed","level":"error","stack":"JsonWebTokenError: jwt malformed\n    at Object.module.exports [as verify] (/Users/akakikoridze/Desktop/GeoApp/node_modules/jsonwebtoken/verify.js:63:17)\n    at /Users/akakikoridze/Desktop/GeoApp/app.js:67:28\n    at newFn (/Users/akakikoridze/Desktop/GeoApp/node_modules/express-async-errors/index.js:16:20)\n    at Layer.handle [as handle_request] (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:317:13)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:284:7\n    at Function.process_params (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:335:12)\n    at next (/Users/akakikoridze/Desktop/GeoApp/node_modules/express/lib/router/index.js:275:10)\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/express-session/index.js:495:7\n    at /Users/akakikoridze/Desktop/GeoApp/node_modules/connect-mongo/src/index.js:10:25\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}
+{"message":"Listening to port 3000..","level":"info"}
+{"message":"Connected to MongoDB...","level":"info"}

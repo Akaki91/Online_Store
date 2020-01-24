@@ -58,11 +58,49 @@ $('#addToCart').on('submit', function (e) {
 })
 
 
-
 $("#updateQty").on('change', function (e) {
 
     $(this).submit()  
 })
+
+
+//---------sorting-by-price-----------------
+
+$("#desc").click( () => {
+
+    let url = window.location.href    
+
+    if (url.includes('&sort=downsort')) {
+        return
+    }
+    else if (url.includes('&sort=upsort')){
+        url = url.slice(0, url.length - 12)
+    }
+
+    url += '&sort=downsort'
+    window.location = url
+
+})
+
+$("#asce").click( () => {
+
+    let url = window.location.href
+
+    if (url.includes('&sort=upsort')) {
+        return
+    }
+    else if (url.includes('&sort=downsort')) {
+        url = url.slice(0, url.length - 14)
+    }
+
+    url += '&sort=upsort'
+    window.location = url
+
+})
+
+
+
+
 
 // sorting querry
 

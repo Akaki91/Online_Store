@@ -63,3 +63,12 @@ module.exports = class Cart {
     }
 
 }
+
+
+
+
+
+// const Cart = mongoose.model('Cart', new mongoose.Schema({
+//     items: [mongoose.Schema.Types.ObjectId]
+
+// }))

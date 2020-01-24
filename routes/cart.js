@@ -1,9 +1,7 @@
-const mongoose = require('mongoose')
 const express = require('express')
 const router = express.Router()
 const bodyParser = require('body-parser')
 const auth = require('../middleware/login')
-const admin = require('../middleware/admin')
 const Cart = require('../models/cart')
 const { Item } = require('../models/item')
 
@@ -60,12 +58,6 @@ router.post("/update", (req, res) => {
 
 
 
-
-
-// const Cart = mongoose.model('Cart', new mongoose.Schema({
-//     items: [mongoose.Schema.Types.ObjectId]
-
-// }))
 
 
 
