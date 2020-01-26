@@ -5,7 +5,7 @@ const bodyParser = require('body-parser')
 const Joi = require('joi')
 const jwt = require('jsonwebtoken')
 const config = require('config')
-
+const bcrypt = require('bcrypt')
 
 router.use(bodyParser.urlencoded({ extended: false }))
 
@@ -53,6 +53,8 @@ router.post('/', async (req, res) => {
         email: req.body.email,
         password: req.body.password,
     })
+    const salt = await bcrypt.genSalt(10)
+    account.password = await bcrypt.hash(account.password, salt)
 
     await account.save()
     return res.status(200).json('You have registered sucessfully. Please Sign In below')

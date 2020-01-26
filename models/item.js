@@ -8,7 +8,8 @@ const admin = require('../middleware/admin')
 
 router.use(bodyParser.urlencoded({ extended: false }))
 
-const Item = mongoose.model('Item', new mongoose.Schema({
+
+let itemSchema = new mongoose.Schema({
     category: mongoose.Schema.Types.ObjectId,
     subcategory: String,
     newSeason: Boolean,
@@ -22,8 +23,12 @@ const Item = mongoose.model('Item', new mongoose.Schema({
     sale: Boolean,
     color: String,
     colors: [String],
-    inStock: Object 
-}))
+    inStock: Object
+})
+
+itemSchema.index({title: 'text' });
+
+const Item = mongoose.model('Item', itemSchema)
 
 function validate(req) {
     const schema = {

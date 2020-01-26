@@ -96,9 +96,9 @@
                     {% endif %}
                 </li>
                 <li class="nav-item">
-                    <div id='search' class="nav-link text-dark">
-                        <i class="fas fa-search"></i>
-                    </div>
+                    <form id="searchbar" action="/collection">
+                        <input class="form-control" type="search" name="search" placeholder="Search">
+                    </form>
                 </li>
                 <li class="nav-item">
                     <a id="cartLogo" class="nav-link text-dark" href="/cart">

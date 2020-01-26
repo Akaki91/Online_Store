@@ -6,6 +6,7 @@ const FileStore = require('session-file-store')(session)
 const passport = require('./passport')
 const { Account } = require('../models/register')
 const Joi = require('joi')
+const bcrypt = require('bcrypt')
 
 router.use(bodyParser.urlencoded({ extended: false }))
 
@@ -34,9 +35,12 @@ router.post('/', async (req, res) => {
     }
     
 
-    let user = await Account.findOne({ email: req.body.email, password: req.body.password});
+    let user = await Account.findOne({ email: req.body.email});
     if (!user) return res.status(400).json('Invalid email or password')
     
+    const validPassword = await bcrypt.compare(req.body.password, user.password)
+    if (!validPassword) return res.status(400).json('Invalid email or password')
+
     const token =  user.generateAuthToken()
     
     res.cookie('jwt', token, {maxAge: 7 * 24 * 3600 * 1000});

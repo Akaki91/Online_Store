@@ -7,6 +7,12 @@ router.get('/', async (req, res) => {
 
     let items
 
+    if (req.query.search) {
+        items = await Item.find({ $text: { $search: req.query.search }}
+    )
+    
+}
+
     if (req.query.sort === "downsort") {
         delete req.query.sort
         items = await Item.find(req.query).sort({ price: -1 });
@@ -21,6 +27,7 @@ router.get('/', async (req, res) => {
 
     res.render('collection.html', { items })
 })
+
 
 
 router.get('/:id', async (req, res) => {

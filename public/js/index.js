@@ -59,9 +59,16 @@ $('#addToCart').on('submit', function (e) {
 
 
 $("#updateQty").on('change', function (e) {
-
     $(this).submit()  
 })
+
+$("#searchbar").keypress(function (e) {
+    if (e.which == 13)
+    $(this).submit()
+})
+
+
+
 
 
 //---------sorting-by-price-----------------
@@ -98,7 +105,7 @@ $("#asce").click( () => {
 
 })
 
-
+//--------------------------------------------
 
 
 
