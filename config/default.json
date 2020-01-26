@@ -1,4 +1,5 @@
 {
-    "jwtPrivateKey": "GeoApp_jwtPrivateKey"
+    "jwtPrivateKey": "GeoApp_jwtPrivateKey",
+    "db": "mongodb://localhost/storeitems"
 }
 
