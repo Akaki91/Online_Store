@@ -1,4 +1,4 @@
 {
     "jwtPrivateKey": "GeoApp_jwtPrivateKey",
-    "db": "GeoApp_db"
+    "db": "mongodb+srv://Akaki991:Hirosima12@cluster1-yaz5s.mongodb.net/test"
 }
