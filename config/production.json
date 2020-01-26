@@ -1,0 +1,4 @@
+{
+    "jwtPrivateKey": "GeoApp_jwtPrivateKey",
+    "db": "GeoApp_db"
+}

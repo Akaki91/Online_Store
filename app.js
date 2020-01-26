@@ -42,7 +42,7 @@ mongoose.connect(db, { useUnifiedTopology: true, useNewUrlParser: true, useCreat
     .then(() => winston.info('Connected to MongoDB...'))
 
 app.use(cookieParser());
-app.use(express.static('public'))
+app.use(express.static('./public'))
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(session({
     secret: 'mysecret',
