@@ -15,6 +15,9 @@ const accountSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    id: {
+        type: String
+    },
     email: {
         type: String,
         unique: true
@@ -59,6 +62,7 @@ router.post('/', async (req, res) => {
 function validateAccount(account) {
     const schema = {
         name: Joi.string().min(4).max(50).required(),
+        id: Joi.string(),
         email: Joi.string().min(4).max(50).required().email(),
         password: Joi.string().min(4).max(50).required(),
     }

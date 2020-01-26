@@ -52,35 +52,32 @@ router.get('/facebook',
 );
 
 router.get('/facebook/callback',
-    passport.authenticate('facebook', { failureRedirect: '/', successRedirect: '/profile'}),
+    passport.authenticate('facebook', { scope: 'email' }), 
     
     async (req, res) => {
 
-
-        // let user = await Account.findOne({ name: req.user.displayName, })
-        // if (!user) {
-        //     user = new Account({
-        //         name: req.user.displayName,
-        //         // id: req.user.id,
-        //         email: "tes@test.com",
-        //         password: 1234
-        //     })
-        //     await user.save()
-        // }
+        console.log();
         
-        let user = new Account({
-            name: req.user.displayName,
-            // id: req.user.id,
-            email: "tes@test.com",
-            password: 1234
-        })
 
-        await user.save()
+        let account = await Account.findOne({ id: req.user.id })
+        if (!account) {
+            account = new Account({
+                id: req.user.id,
+                name: req.user.displayName,
+                email: (req.user.displayName + '@' + req.user.provider + '.com'), 
+                password: 1234
+            })
+            
+            await account.save()
+        } 
+        
+        
 
-        const token = user.generateAuthToken()
+        const token = account.generateAuthToken()
 
         res.cookie('jwt', token, { maxAge: 7 * 24 * 3600 * 1000 });
         res.redirect('/profile');
+        
 
     })
 

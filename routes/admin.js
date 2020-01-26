@@ -1,6 +1,5 @@
 const express = require('express')
 const router = express.Router()
-const Joi = require('joi')
 const auth = require('../middleware/login')
 const admin = require('../middleware/admin')
 const { Item } = require('../models/item')

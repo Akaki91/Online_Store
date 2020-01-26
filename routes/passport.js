@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 const passport = require('passport')
-const LocalStrategy = require('passport-local').Strategy
+// const LocalStrategy = require('passport-local').Strategy
 const FacebookStrategy = require('passport-facebook').Strategy
 // const { Account } = require('../models/register')
 const bodyParser = require('body-parser')

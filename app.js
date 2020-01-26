@@ -17,8 +17,9 @@ const config = require('config')
 const error = require('./middleware/error')
 const cookieParser = require('cookie-parser');
 const jwt = require('jsonwebtoken')
+const helmet = require('helmet')
+const compression = require('compression')
 require('express-async-errors')
-
 
 winston.exceptions.handle(
     new winston.transports.Console({colorize: true, prettyPrint: true}),
@@ -33,8 +34,7 @@ winston.add(new winston.transports.File({filename: 'logfile.log'}))
 
 
 if (!config.get('jwtPrivateKey')) {
-    console.error('Fatal Error: jwtPrivateKey is not defined');
-    process.exit(1)
+    throw new Error('Fatal Error: jwtPrivateKey is not defined');
 }
 
 mongoose.connect('mongodb://localhost/storeitems', { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true })
@@ -47,8 +47,8 @@ app.use(session({
     secret: 'mysecret',
     resave: false,
     saveUninitialized: false,
-    store: new MongoStore({ mongooseConnection: mongoose.connection}),
-    cookie: { maxAge:30 * 24 * 60 * 60 * 1000}
+    store: new MongoStore({ mongooseConnection: mongoose.connection }),
+    cookie: { maxAge: 30 * 24 * 60 * 60 * 1000 }
 }))
 
 let env = nunjucks.configure('views', {
@@ -58,14 +58,10 @@ let env = nunjucks.configure('views', {
 
 app.use((req, res, next) => {
     const token = req.cookies.jwt;
-    // const sid = req.cookies["connect.sid"]
     let isAuthorized = false;
     if (token) {
         isAuthorized = jwt.verify(token, config.get('jwtPrivateKey'));
     }
-    // else if (req.sessionID) {
-    //     isAuthorized = jwt.verify(req.sessionID, config.get('jwtPrivateKey'))
-    // }
 
     env.addGlobal('isAuthorized', isAuthorized);
     next();
@@ -73,28 +69,25 @@ app.use((req, res, next) => {
 
 app.use((req, res, next) => {
     res.locals.session = req.session,
-    next()
+        next()
 })
 
 app.use('/login', login)
-app.use('/register', register) 
+app.use('/register', register)
 app.use('/additem', additem)
 app.use('/collection', collection)
 app.use('/profile', profile)
 app.use('/admin', adminroute)
 app.use('/cart', cart)
 app.use(error)
-
+app.use(helmet())
+app.use(compression())
 //----------------------------------------------------------------------
 
 app.get('/', (req, res) => {
     res.render('index.html')
 })
 
-
-app.get('/home', (req, res) => {
-    res.json(req.query)
-})
 
 //-------------------------------------------------------------------
 
