@@ -1,5 +1,6 @@
 {
     "jwtPrivateKey": "GeoApp_jwtPrivateKey",
-    "db": "mongodb://localhost/storeitems"
+    "db": "mongodb://localhost/storeitems",
+    "facebookSecret": "facebookclientSecret"
 }
 

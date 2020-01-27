@@ -60,9 +60,7 @@ router.get('/facebook/callback',
     
     async (req, res) => {
 
-        console.log();
-        
-
+    
         let account = await Account.findOne({ id: req.user.id })
         if (!account) {
             account = new Account({

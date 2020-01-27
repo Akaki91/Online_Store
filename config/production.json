@@ -1,4 +1,5 @@
 {
     "jwtPrivateKey": "GeoApp_jwtPrivateKey",
-    "db": "GeoApp_db"
+    "db": "GeoApp_db",
+    "facebookSecret": "facebookclientSecret"
 }
