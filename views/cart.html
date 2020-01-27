@@ -8,64 +8,65 @@
     </p>
     <hr>
 
-    <table class="table">
-        <thead class="thead-dark">
-            <tr>
-                <th scope="col">#</th>
-                <th>Title</th>
-                <th>Images</th>
-                <th>Size</th>
-                <th>Quantity</th>
-                <th>Price</th>
-                <th>Remove Item</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for item in cart.items %}
-            <tr>
-                <th scope="row">{{loop.index}}</th>
-                <td><a href="/collection/{{item.id}}">{{item.title}}</a></td>
-                <td><img class="previewIcon" src="{{item.image}}"></td>
-                <td>{{item.size}}</td>
-                <td>
-                    <form id="updateQty" action="/cart/update" method="POST">
-                        <input type="hidden" name="id" value={{item.id}}>
-                        <input type="hidden" name="size" value={{item.size}}>
-                        <select class="updateQty" name="qty">
-                            <option>{{item.qty}}</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                        </select>
-                    </form>
-                </td>
-                <td class="subprice">${{item.price}}</td>
-                <td>
-                    <form action="/cart/delete" method="POST">
-                    <input type="hidden" name="id" value={{item.id}}>
-                    <input type="hidden" name="size" value={{item.size}}>
-                    <button type="submit" class="btn btn-danger">X</button>
-                    </form>
-                </td>
-            </tr>
-            {% endfor %}
-                <th></th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td class="subtotal"><strong>SUBTOTAL:</strong></td>
-                <td id="subtotal"><strong>${{cart.totalPrice}}</strong></td>
-                {% if cart.totalPrice == 0 %}
-                <td><a href="cart" class="btn btn-primary">Proceed to Checkout</a></td>
-                {% elif isAuthorized %}
-                <td><a href="/cart/checkout" class="btn btn-primary">Proceed to Checkout</a></td>
-                {% else %}
-                <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">Proceed to Checkout</button></td>
-                {% endif %}
-        </tbody>
-    </table>
+            <table id="cartTable" class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th>Title</th>
+                        <th>Image</th>
+                        <th>Size</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in cart.items %}
+                    <tr>
+                        <th scope="row">{{loop.index}}</th>
+                        <td><a href="/collection/{{item.id}}">{{item.title}}</a></td>
+                        <td><img class="previewIcon" src="{{item.image}}"></td>
+                        <td>{{item.size}}</td>
+                        <td>
+                            <form id="updateQty" action="/cart/update" method="POST">
+                                <input type="hidden" name="id" value={{item.id}}>
+                                <input type="hidden" name="size" value={{item.size}}>
+                                <select class="updateQty" name="qty">
+                                    <option>{{item.qty}}</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </form>
+                        </td>
+                        <td class="subprice">${{item.price}}</td>
+                        <td>
+                            <form action="/cart/delete" method="POST">
+                            <input type="hidden" name="id" value={{item.id}}>
+                            <input type="hidden" name="size" value={{item.size}}>
+                            <button type="submit" class="btn btn-danger">X</button>
+                            </form>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                        <th></th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="subtotal"><strong>TOTAL:</strong></td>
+                        <td id="subtotal"><strong>${{cart.totalPrice}}</strong></td>
+                </tbody>
+            </table>
+            {% if cart.totalPrice == 0 %}
+            <div class="checkout"><a href="cart" class="btn btn-primary">Proceed to Checkout</a></div>
+            {% elif isAuthorized %}
+            <div class="checkout"><a href="/cart/checkout" class="btn btn-primary">Proceed to Checkout</a></div>
+            {% else %}
+            <div class="checkout"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">Proceed to
+                    Checkout</button></div>
+            {% endif %}
 </div>
 
 
