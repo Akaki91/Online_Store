@@ -26,8 +26,6 @@ let itemSchema = new mongoose.Schema({
     inStock: Object
 })
 
-itemSchema.index({title: 'text' });
-
 const Item = mongoose.model('Item', itemSchema)
 
 function validate(req) {

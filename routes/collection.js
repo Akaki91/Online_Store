@@ -7,19 +7,26 @@ router.get('/', async (req, res) => {
 
     let items
 
-    if (req.query.search) {
-        items = await Item.find({ $text: { $search: req.query.search }}
-    )
-    
-}
-
     if (req.query.sort === "downsort") {
         delete req.query.sort
-        items = await Item.find(req.query).sort({ price: -1 });
+        if (req.query.search) {
+            items = await Item.find({ title: { $regex: `.*${req.query.search}.*`, $options: 'i' } }).sort({ price: -1 })
+        }
+        else {
+            items = await Item.find(req.query).sort({ price: -1 });
+        }
     }
     else if (req.query.sort === "upsort") {
         delete req.query.sort
-        items = await Item.find(req.query).sort({ price: +1 })
+        if (req.query.search) {
+            items = await Item.find({ title: { $regex: `.*${req.query.search}.*`, $options: 'i' } }).sort({ price: +1 })
+        }
+        else {
+            items = await Item.find(req.query).sort({ price: +1 })
+        }
+    }
+    else if (req.query.search) {
+        items = await Item.find({ title: { $regex: `.*${req.query.search}.*`, $options: 'i' } })
     }
     else {
         items = await Item.find(req.query);
