@@ -38,7 +38,7 @@ if (!config.get('jwtPrivateKey')) {
 }
 
 const db = config.get("db")
-mongoose.connect(db, { useUnifiedTopology: false, useNewUrlParser: true, useCreateIndex: true })
+mongoose.connect(db, { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true })
     .then(() => winston.info('Connected to MongoDB...'))
 
 app.use(cookieParser());
