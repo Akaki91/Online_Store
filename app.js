@@ -37,8 +37,8 @@ if (!config.get('jwtPrivateKey')) {
     throw new Error('Fatal Error: jwtPrivateKey is not defined');
 }
 
-const db = config.get('db')
-mongoose.connect(db, {useNewUrlParser: true, useCreateIndex: true })
+const db = config.get("db")
+mongoose.connect(db, { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true })
     .then(() => winston.info('Connected to MongoDB...'))
 
 app.use(cookieParser());
