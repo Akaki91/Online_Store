@@ -30,8 +30,10 @@ router.post("/add", async (req, res) => {
     
     cart.add(req.body.id, req.body.size, req.body.color, item.title, item.image1, item.price)
     req.session.cart = cart
+
+    let message = "Item has been added to the cart"
     
-    res.status(200).json("Item has been added to the cart")
+    res.status(200).json({ message, cart })
 })
 
 

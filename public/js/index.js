@@ -41,11 +41,11 @@ $('#addToCart').on('submit', function (e) {
 
     $.post('/cart/add', $(this).serialize())
         .done((resp) => {
-            
-            $(".alert").addClass("alert-success").append(resp)
+            window.location.reload()
+            $(".alert").addClass("alert-success").append(resp.message)
             setTimeout(function () {
                 $(".alert").removeClass("alert-success").empty();
-            }, 2000)
+            }, 3000)
         })
         .fail((error) => {
             $(".alert").addClass("alert-danger").append(error)
