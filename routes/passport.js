@@ -5,7 +5,7 @@ const passport = require('passport')
 const FacebookStrategy = require('passport-facebook').Strategy
 // const { Account } = require('../models/register')
 const bodyParser = require('body-parser')
-const 
+const config = require('config')
 
 router.use(bodyParser.urlencoded({ extended: false }))
 
