@@ -36,11 +36,11 @@
     margin-right: 15px;
 }
 
+
 .nav-link {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    
     font-size: 15.5px;
     color: black;
     border: none;
@@ -143,7 +143,7 @@ h5 {
 
 
 .previewIcon {
-    width: 9vw;
+    width: 8vw;
 }
 
 .subtotal {
@@ -160,6 +160,15 @@ h5 {
 #cartTable {
     font-size: 2.5vw;
   }
+
+.previewIcon {
+    display: none;
+}
+
+.nav-link {
+    text-align: left;
+}
+
 }
 
 .checkout {
