@@ -58,7 +58,7 @@ $('#addToCart').on('submit', function (e) {
 })
 
 
-$("#updateQty").on('change', function (e) {
+$("#cartTable").on('change', '.updateQ', function () {
     $(this).submit()  
 })
 

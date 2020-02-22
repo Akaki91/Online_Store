@@ -73,16 +73,17 @@
                     </p>
                 </div>
                 <form id="addToCart" action="/cart/add" method="POST">
-                <div class="size">
+                <div>
                     <p>
-                        <input name="size" list="size" placeholder="Choose Size" required>
-                        <datalist id="size">
-                            {% for size, amount in item.inStock %}
-                                {% if (amount > 0) %}
-                                <option value={{size}}>
-                                {% endif %}
-                            {% endfor %}
-                        </datalist>
+                        <p>Choose Size:</p>
+                        {% for size, amount in item.inStock %}
+                            {% if (amount > 0) %}
+                        <div class="size">
+                            <label for="size">{{size}}</label>
+                            <p><input type="radio" name="size" value={{size}}></p>
+                        </div>
+                            {% endif %}
+                        {% endfor %}
                     </p>
                     <input type="hidden" name="id" value={{item._id}}>
                     <input type="hidden" name="color" value={{item.color}}>

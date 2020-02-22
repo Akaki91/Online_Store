@@ -41,7 +41,7 @@
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    font-size: 15.5px;
+    font-size: 1.1vw;
     color: black;
     border: none;
     /* border: solid black 1px; */
@@ -146,10 +146,18 @@ h5 {
     width: 8vw;
 }
 
+.cartIcon {
+    width: 8vw;
+}
+
 .subtotal {
     float: right;
 }
 
+.size {
+    display: inline-block;
+    margin-right: 10px;
+}
 
 #checkout {
     margin: 0 auto;
